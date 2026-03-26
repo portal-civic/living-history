@@ -152,10 +152,12 @@
       <!-- Mapa europeu interactiu — europe-map.svg -->
       <div class="s2-map-wrap">
         <div class="s2-map-container">
-          <!-- Imatge base del mapa real d'Europa -->
-          <img src="assets/maps/europe-map.svg"
-               alt="Mapa de Europa con los socios del proyecto"
-               class="s2-map-img">
+          <!-- Wrapper d'aspecte fix: sempre 16:9, mai s'estira -->
+          <div class="map-wrapper">
+            <img src="assets/maps/europe-map.svg"
+                 alt="Mapa de Europa con los socios del proyecto"
+                 class="s2-map-img">
+          </div>
 
           <!-- Glows de país: Espanya, Itàlia, Grècia — posicions calculades del SVG -->
           <div class="s2-cg" style="left:32%;top:87.5%;--g:#d97706"></div>
