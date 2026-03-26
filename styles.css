@@ -1609,28 +1609,70 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   .steps-timeline { flex-direction: row; flex-wrap: wrap; padding-left: 0; }
   .tl-line { display: none; }
   .tl-step { padding: 5px 10px; }
+  /* Portada */
   .cover-photo { background-position: center 20%; }
   .cover-inner { padding: 12px 0 20px; }
   .slide-cover { padding-bottom: 130px; }
+  .cover-mark-logo { width: clamp(80px, 20vw, 120px); margin: 10px auto; }
+  .cover-cta { padding: 14px 28px; font-size: 15px; }
+  /* Logos strip */
   .cover-logos-strip { padding: 16px 24px 20px; }
   .cover-logos-group { padding: 0 24px; }
   .cover-logo { height: 32px; }
+  .cover-logo-eu  { height: 36px !important; }
   .cover-logo-lead  { height: 42px; }
   .cover-logo-altea { height: 38px; }
   .cover-logo-minor { height: 24px; }
+  .cover-logo-eschool { height: 24px; }
   .cover-logos-sep-v { height: 44px; }
+  /* Modal partner */
+  .modal-logo-wrap { padding: 20px 28px 16px; }
+  .modal-logo-img { height: 44px; }
+  #partner-modal[data-partner="altea"]   .modal-logo-img { height: 60px; max-width: 200px; }
+  #partner-modal[data-partner="molfetta"] .modal-logo-img { height: 74px; max-width: 220px; }
+  .modal-body { padding: 16px 20px 20px; }
+  /* Slide 10 */
+  #s10.s10-hero { padding-bottom: 130px; }
 }
 @media(max-width:480px){
   .slide { padding: 80px 16px 56px; }
   .kpi-grid { grid-template-columns: 1fr 1fr; }
+  /* Portada */
   .cover-inner { padding: 8px 0 16px; }
   .slide-cover { padding-bottom: 180px; }
+  .cover-mark-logo { width: clamp(60px, 18vw, 90px); margin: 8px auto; }
+  .cover-cta { padding: 13px 22px; font-size: 14px; }
+  /* Logos strip */
   .cover-logos-strip { flex-wrap: wrap; gap: 14px 0; padding: 16px 16px 20px; }
   .cover-logos-group { padding: 0 16px; }
   .cover-logos-sep-v { display: none; }
   .cover-logo { height: 28px; }
+  .cover-logo-eu  { height: 28px !important; }
   .cover-logo-lead  { height: 36px; }
   .cover-logo-altea { height: 32px; }
   .cover-logo-minor { height: 20px; }
+  .cover-logo-eschool { height: 20px; top: 0; }
   .cover-logos-row { gap: 16px; }
+  /* Modal partner */
+  .modal-overlay { padding: 12px; }
+  .modal-box { border-radius: 14px; }
+  .modal-logo-wrap { padding: 16px 20px 12px; }
+  .modal-logo-img { height: 36px; }
+  #partner-modal[data-partner="altea"]   .modal-logo-img { height: 48px; max-width: 160px; }
+  #partner-modal[data-partner="molfetta"] .modal-logo-img { height: 60px; max-width: 180px; }
+  .modal-body { padding: 14px 16px 18px; }
+  .modal-name { font-size: 17px; }
+  .modal-desc { font-size: 12px; }
+  /* Slide 03 */
+  .s3-phone-frame { height: 300px; }
+  .s3-qr-wrap { height: 160px; }
+  /* Slide 10 */
+  #s10.s10-hero { padding-bottom: 180px; }
+  .s10-nav-bar { flex-wrap: wrap; gap: 8px; }
+}
+
+/* ── Slide 04: portrait image stacks to full width on mobile ── */
+@media(max-width:860px){
+  .step-detail-img-wrap.portrait { width: 100%; }
+  .step-detail-img-wrap.portrait .step-detail-img { height: 200px; }
 }
