@@ -227,6 +227,13 @@ function toggleStep(i) {
   btns.forEach(b => b.classList.remove('active'));
   btns[i].classList.add('active');
 
+  // Esborra la imatge IMMEDIATAMENT, abans del fade-out,
+  // perquè no siga visible mentre el panell s'esvaeix.
+  const imgWrap = document.getElementById('sd-img-wrap');
+  const img     = document.getElementById('sd-img');
+  imgWrap.classList.remove('has-image', 'portrait');
+  img.src = '';
+
   // Fade out, swap content, fade in
   detail.classList.remove('visible');
   setTimeout(() => {
@@ -235,16 +242,10 @@ function toggleStep(i) {
     document.getElementById('sd-num').textContent   = 'Paso ' + (i + 1);
     document.getElementById('sd-title').textContent = s.title;
     document.getElementById('sd-desc').innerHTML    = s.bullets.map(b => '<li>' + b + '</li>').join('');
-    // Image — show only if step has one
-    const imgWrap = document.getElementById('sd-img-wrap');
-    const img     = document.getElementById('sd-img');
     if (s.image) {
       img.src = s.image; img.alt = s.title;
       imgWrap.classList.add('has-image');
       imgWrap.classList.toggle('portrait', !!s.portrait);
-    } else {
-      imgWrap.classList.remove('has-image', 'portrait');
-      img.src = '';
     }
     detail.classList.add('visible');
   }, 180);
@@ -252,8 +253,13 @@ function toggleStep(i) {
   activeStep = i;
 }
 
-// Activa el Paso 1 per defecte en carregar la pàgina
-document.addEventListener('DOMContentLoaded', () => toggleStep(0));
+// Precàrrega de totes les imatges dels passos per evitar flash en la primera visita
+document.addEventListener('DOMContentLoaded', () => {
+  STEPS.forEach(s => {
+    if (s.image) { const p = new Image(); p.src = s.image; }
+  });
+  toggleStep(0);
+});
 
 // ─── ACCORDION ──────────────────────────────────────────────────────────────
 function toggleAcc(btn) {
