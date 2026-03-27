@@ -116,9 +116,9 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   height: 26px; width: auto; display: block; object-fit: contain;
 }
 
-/* EU logo variant in portada strip — slightly larger */
+/* EU logo variant in portada strip */
 .cover-logo-eu {
-  height: 48px !important;
+  height: 36px !important;
 }
 
 @media(max-width:768px){
@@ -315,15 +315,17 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   position: absolute; bottom: 0; left: 0; right: 0; z-index: 4;
   display: flex; align-items: center; justify-content: center;
   gap: 0;
-  padding: 20px 48px 24px;
-  background: rgba(255,255,255,0.96);
+  padding: 12px 48px;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid rgba(0,0,0,0.07);
   animation: fadeUp 0.8s 1.0s both;
 }
 .cover-logos-group {
   display: flex; flex-direction: column;
-  align-items: center; gap: 9px;
-  padding: 0 44px;
+  align-items: center; gap: 6px;
+  padding: 0 36px;
 }
 .cover-logos-label {
   font-size: 9px; font-weight: 800;
@@ -331,25 +333,26 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   color: #6b7a90;
 }
 .cover-logos-sep-v {
-  width: 1px; height: 52px; flex-shrink: 0;
+  width: 1px; height: 40px; flex-shrink: 0;
   background: rgba(0,0,0,0.09);
+  opacity: 0.2;
 }
 .cover-logos-row {
-  display: flex; align-items: center; gap: 28px;
+  display: flex; align-items: center; gap: 24px;
 }
 .cover-logo {
-  height: 40px; width: auto; object-fit: contain;
+  height: 32px; width: auto; object-fit: contain;
   display: block; cursor: default;
   transition: opacity 0.2s;
 }
-/* Lead partner: més gran i amb més presència */
-.cover-logo-lead  { height: 72px; }
-/* Ajuntament d'Altea: reforçat per llegibilitat */
-.cover-logo-altea { height: 60px; }
-/* EuroAltea: lleugerament reduït */
-.cover-logo-minor   { height: 30px; }
-/* E-School: mateixa mida, pujat uns px */
-.cover-logo-eschool { height: 30px; position: relative; top: -2px; }
+/* Lead partner: slightly larger for hierarchy */
+.cover-logo-lead  { height: 36px; }
+/* Ajuntament d'Altea */
+.cover-logo-altea { height: 30px; }
+/* EuroAltea */
+.cover-logo-minor   { height: 22px; }
+/* E-School */
+.cover-logo-eschool { height: 22px; position: relative; top: -2px; }
 
 .cover-logo-link {
   display: inline-flex; align-items: center;
@@ -1642,15 +1645,15 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   .cover-mark-logo { width: clamp(80px, 20vw, 120px); margin: 10px auto; }
   .cover-cta { padding: 14px 28px; font-size: 15px; }
   /* Logos strip */
-  .cover-logos-strip { padding: 16px 24px 20px; }
-  .cover-logos-group { padding: 0 24px; }
-  .cover-logo { height: 32px; }
-  .cover-logo-eu  { height: 36px !important; }
-  .cover-logo-lead  { height: 42px; }
-  .cover-logo-altea { height: 38px; }
-  .cover-logo-minor { height: 24px; }
-  .cover-logo-eschool { height: 24px; }
-  .cover-logos-sep-v { height: 44px; }
+  .cover-logos-strip { padding: 10px 24px; }
+  .cover-logos-group { padding: 0 20px; }
+  .cover-logo { height: 26px; }
+  .cover-logo-eu  { height: 30px !important; }
+  .cover-logo-lead  { height: 32px; }
+  .cover-logo-altea { height: 26px; }
+  .cover-logo-minor { height: 18px; }
+  .cover-logo-eschool { height: 18px; }
+  .cover-logos-sep-v { height: 34px; }
   /* Modal partner */
   .modal-logo-wrap { padding: 20px 28px 16px; }
   .modal-logo-img { height: 44px; }
@@ -1669,16 +1672,16 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   .cover-mark-logo { width: clamp(60px, 18vw, 90px); margin: 8px auto; }
   .cover-cta { padding: 13px 22px; font-size: 14px; }
   /* Logos strip */
-  .cover-logos-strip { flex-wrap: wrap; gap: 14px 0; padding: 16px 16px 20px; }
-  .cover-logos-group { padding: 0 16px; }
+  .cover-logos-strip { flex-wrap: wrap; gap: 10px 0; padding: 10px 16px; }
+  .cover-logos-group { padding: 0 12px; }
   .cover-logos-sep-v { display: none; }
-  .cover-logo { height: 28px; }
-  .cover-logo-eu  { height: 28px !important; }
-  .cover-logo-lead  { height: 36px; }
-  .cover-logo-altea { height: 32px; }
-  .cover-logo-minor { height: 20px; }
-  .cover-logo-eschool { height: 20px; top: 0; }
-  .cover-logos-row { gap: 16px; }
+  .cover-logo { height: 22px; }
+  .cover-logo-eu  { height: 24px !important; }
+  .cover-logo-lead  { height: 28px; }
+  .cover-logo-altea { height: 22px; }
+  .cover-logo-minor { height: 16px; }
+  .cover-logo-eschool { height: 16px; top: 0; }
+  .cover-logos-row { gap: 12px; }
   /* Modal partner */
   .modal-overlay { padding: 12px; }
   .modal-box { border-radius: 14px; }
