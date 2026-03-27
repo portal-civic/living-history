@@ -1718,3 +1718,11 @@ nav.scrolled .nav-slide-link { color: #64748b; }
     object-position: center;
   }
 }
+
+/* ── Slide 02: correccions de posició dels markers NOMÉS en mòbil estret ── */
+/* Usa IDs per vèncer els style="" inline. No afecta desktop ni tablet.       */
+@media(max-width:560px){
+  #mk-altea    { left: 30%   !important; top: 83%   !important; }
+  #mk-molfetta { left: 54%   !important; top: 65%   !important; }
+  #mk-karditsa { left: 79%   !important; top: 74%   !important; }
+}
