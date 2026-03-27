@@ -1655,7 +1655,7 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   .cover-photo { background-position: center 20%; }
   .cover-inner { padding: 12px 0 20px; }
   .slide-cover { padding-bottom: 130px; }
-  .cover-mark-logo { width: clamp(80px, 20vw, 120px); margin: 10px auto; }
+  .cover-mark-logo { width: clamp(140px, 36vw, 190px); margin: 14px auto; }
   .cover-cta { padding: 14px 28px; font-size: 15px; }
   /* Logos strip */
   .cover-logos-strip { padding: 10px 24px; }
@@ -1682,7 +1682,7 @@ nav.scrolled .nav-slide-link { color: #64748b; }
   /* Portada */
   .cover-inner { padding: 8px 0 16px; }
   .slide-cover { padding-bottom: 180px; }
-  .cover-mark-logo { width: clamp(60px, 18vw, 90px); margin: 8px auto; }
+  .cover-mark-logo { width: clamp(120px, 32vw, 160px); margin: 12px auto; }
   .cover-cta { padding: 13px 22px; font-size: 14px; }
   /* Logos strip */
   .cover-logos-strip { flex-wrap: wrap; gap: 10px 0; padding: 10px 16px; }
