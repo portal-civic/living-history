@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="assets/i18n/translations.js"></script>
+<script src="assets/i18n/i18n.js"></script>
 </head>
 <body>
 
@@ -36,6 +38,12 @@
       <a href="#s9"  class="nav-slide-link" data-target="s9"  onclick="goSlide('s9')">09</a>
       <a href="#s10" class="nav-slide-link" data-target="s10" onclick="goSlide('s10')">10</a>
     </div>
+    <div class="lang-selector" role="navigation" aria-label="Language selector">
+      <button class="lang-btn active" data-lang="es" onclick="setLanguage('es')">ES</button>
+      <button class="lang-btn" data-lang="va" onclick="setLanguage('va')">VA</button>
+      <button class="lang-btn" data-lang="it" onclick="setLanguage('it')">IT</button>
+      <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+    </div>
     <a href="https://erasmus-plus.ec.europa.eu" target="_blank" class="nav-eu-badge" rel="noopener">
       <img src="assets/logos/EN_Co-fundedbytheEU_RGB_POS.png" alt="Co-funded by the European Union" class="nav-eu-logo">
     </a>
@@ -53,7 +61,7 @@
   <div class="slide-inner">
     <div class="cover-inner">
       <p class="cover-pretitle" data-i18n="portada.pretitle">Guía Práctica: Inteligencia Artificial y Patrimonio Cultural</p>
-      <h1 class="cover-title" data-i18n="portada.title">Living History</h1>
+      <h1 class="cover-title">Living History</h1>
       <p class="cover-subtitle" data-i18n="portada.subtitle">Small-scale partnerships in adult education</p>
       <p class="cover-subt2" data-i18n="portada.subt2">(Guía replicable para municipios, instituciones culturales y educativas)</p>
       <img src="assets/logos/living-history-mark-light.png" alt="Living History logo" class="cover-mark-logo">
@@ -108,16 +116,16 @@
       <div class="s1-num" aria-hidden="true">01</div>
       <div class="s1-header-text">
         <span class="slide-label" style="color:var(--blue)" data-i18n="s1.label">Introducción</span>
-        <h2 class="slide-title s1-title" data-i18n="s1.title">La memoria cultural<br>en la era de la IA</h2>
+        <h2 class="slide-title s1-title" data-i18n="slide01.title">La memoria cultural en la era de la IA</h2>
       </div>
     </div>
 
     <!-- Fila 2: text | imatge -->
     <div class="s1-layout">
       <div class="s1-body reveal">
-        <p data-i18n="s1.body1">La inteligencia artificial está transformando la forma en que comprendemos, transmitimos y preservamos el patrimonio cultural.</p>
-        <p data-i18n="s1.body2">El proyecto <strong>Living History</strong>, cofinanciado por Erasmus+, utiliza herramientas digitales avanzadas para dar nueva vida a la historia local y conectar generaciones a través de la tecnología.</p>
-        <p data-i18n="s1.body3">Desde <strong>Altea</strong>, <strong>Karditsa</strong> y <strong>Molfetta</strong>, desarrollamos una metodología replicable para que cualquier comunidad pueda mapear, digitalizar y comunicar su patrimonio.</p>
+        <p data-i18n="slide01.text.0">La inteligencia artificial está transformando la forma en que comprendemos, transmitimos y preservamos el patrimonio cultural.</p>
+        <p data-i18n="slide01.text.1">El proyecto Living History, cofinanciado por Erasmus+, utiliza herramientas digitales avanzadas para dar nueva vida a la historia local y conectar generaciones a través de la tecnología.</p>
+        <p data-i18n="slide01.text.2">Desde Altea, Karditsa y Molfetta, desarrollamos una metodología replicable para que cualquier comunidad pueda mapear, digitalizar y comunicar su patrimonio.</p>
       </div>
 
       <div class="s1-image-wrap reveal">
@@ -128,8 +136,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">01 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('portada')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s2')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('portada')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s2')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -143,7 +151,7 @@
       <div class="slide-num-display">02</div>
       <div>
         <span class="slide-label" style="color:var(--amber)" data-i18n="s2.label">Objetivos</span>
-        <h2 class="slide-title" data-i18n="s2.title">Objetivos del proyecto<br>y alcance de la guía</h2>
+        <h2 class="slide-title" data-i18n="slide02.title">Objetivos del proyecto y alcance de la guía</h2>
       </div>
     </div>
 
@@ -196,7 +204,7 @@
 
           </div>
         </div>
-        <p class="s2-map-hint">Toca un punto para conocer al socio</p>
+        <p class="s2-map-hint" data-i18n="s2.mapHint">Toca un punto para conocer al socio</p>
       </div>
 
       <!-- Columna dreta: objectius compactes + callout -->
@@ -211,7 +219,7 @@
                 <span class="obj-mini-arrow">›</span>
               </div>
               <div class="obj-mini-back">
-                <p data-i18n="s2.obj1.back">Promover el patrimonio local con IA y realidad aumentada, haciendo la historia accesible y emocionante.</p>
+                <p data-i18n="slide02.bullets.0">Promover el patrimonio cultural local utilizando herramientas de IA y realidad aumentada.</p>
               </div>
             </div>
           </div>
@@ -224,7 +232,7 @@
                 <span class="obj-mini-arrow">›</span>
               </div>
               <div class="obj-mini-back">
-                <p data-i18n="s2.obj2.back">Formar a adultos y docentes en el uso de IA para recuperar historias y espacios olvidados.</p>
+                <p data-i18n="slide02.bullets.1">Formar a adultos y docentes en el uso de IA para recuperar historias y personajes.</p>
               </div>
             </div>
           </div>
@@ -237,7 +245,7 @@
                 <span class="obj-mini-arrow">›</span>
               </div>
               <div class="obj-mini-back">
-                <p data-i18n="s2.obj3.back">Impulsar el aprendizaje intergeneracional y reducir la brecha digital entre generaciones.</p>
+                <p data-i18n="slide02.bullets.2">Impulsar el aprendizaje intergeneracional y reducir la brecha digital.</p>
               </div>
             </div>
           </div>
@@ -250,7 +258,7 @@
                 <span class="obj-mini-arrow">›</span>
               </div>
               <div class="obj-mini-back">
-                <p data-i18n="s2.obj4.back">Una metodología exportable a cualquier territorio europeo, desde un piloto local hasta una red continental.</p>
+                <p data-i18n="slide02.bullets.3">Desarrollar una metodología transferible a cualquier territorio europeo.</p>
               </div>
             </div>
           </div>
@@ -258,7 +266,7 @@
         </div>
 
         <div class="s2-purpose">
-          <p data-i18n="s2.purpose">Esta guía sirve como manual práctico con los pasos, herramientas y ejemplos reales para replicar el modelo Living History en otros municipios o instituciones.</p>
+          <p data-i18n="slide02.text">Esta guía tiene como finalidad servir como manual práctico, ofreciendo los pasos, herramientas y ejemplos reales que faciliten la replicación del modelo Living History en otros municipios o instituciones.</p>
         </div>
       </div>
 
@@ -267,8 +275,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">02 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s1')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s3')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s1')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s3')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -281,7 +289,7 @@
       <div class="slide-num-display">03</div>
       <div>
         <span class="slide-label" style="color:var(--green)" data-i18n="s3.label">IA en Acción</span>
-        <h2 class="slide-title" data-i18n="s3.title">Cómo utilizar la IA para la<br>explotación del patrimonio cultural</h2>
+        <h2 class="slide-title" data-i18n="slide03.title">Cómo utilizar la IA para la explotación del patrimonio cultural</h2>
       </div>
     </div>
 
@@ -290,19 +298,19 @@
       <div class="use-card">
         <div class="use-card-icon" style="background:linear-gradient(135deg,var(--blue),#60a5fa)">🤖</div>
         <h3 class="use-card-title" data-i18n="s3.uc1.title">Chatbots históricos</h3>
-        <p class="use-card-desc" data-i18n="s3.uc1.desc">Permiten a visitantes conversar con personajes como "El Guerrero de la Estela Ibérica". Avatares digitales que encarnan el pasado.</p>
+        <p class="use-card-desc" data-i18n="slide03.bullets.0">Permiten a visitantes conversar con personajes como "El Guerrero de la Estela Ibérica".</p>
       </div>
 
       <div class="use-card">
         <div class="use-card-icon" style="background:linear-gradient(135deg,var(--amber),#fbbf24)">📷</div>
         <h3 class="use-card-title" data-i18n="s3.uc2.title">Análisis de fotografías antiguas</h3>
-        <p class="use-card-desc" data-i18n="s3.uc2.desc">La IA puede reconocer lugares y vincularlos a relatos orales. Restaura, acoloriza y contextualiza imágenes históricas.</p>
+        <p class="use-card-desc" data-i18n="slide03.bullets.1">La IA puede reconocer lugares y vincularlos a relatos orales.</p>
       </div>
 
       <div class="use-card">
         <div class="use-card-icon" style="background:linear-gradient(135deg,var(--green),#34d399)">📍</div>
         <h3 class="use-card-title" data-i18n="s3.uc3.title">Recorridos con códigos QR</h3>
-        <p class="use-card-desc" data-i18n="s3.uc3.desc">Los usuarios escanean un punto del municipio y acceden a un avatar que narra la historia del lugar con realidad aumentada.</p>
+        <p class="use-card-desc" data-i18n="slide03.bullets.2">Los usuarios escanean un punto del municipio y acceden a un avatar que narra la historia del lugar.</p>
       </div>
 
     </div>
@@ -367,8 +375,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">03 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s2')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s4')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s2')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s4')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -381,7 +389,7 @@
       <div class="slide-num-display">04</div>
       <div>
         <span class="slide-label" style="color:var(--purple)" data-i18n="s4.label">Metodología</span>
-        <h2 class="slide-title" data-i18n="s4.title">Metodología replicable:<br>paso a paso</h2>
+        <h2 class="slide-title" data-i18n="slide04.title">Metodología replicable: paso a paso</h2>
       </div>
     </div>
 
@@ -435,8 +443,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">04 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s3')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s5')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s3')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s5')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -449,7 +457,7 @@
       <div class="slide-num-display">05</div>
       <div>
         <span class="slide-label" style="color:var(--blue)" data-i18n="s5.label">Habilidades digitales</span>
-        <h2 class="slide-title" data-i18n="s5.title">Mejorar las habilidades<br>digitales de los adultos</h2>
+        <h2 class="slide-title" data-i18n="slide05.title">Mejorar las habilidades digitales de los adultos</h2>
       </div>
     </div>
 
@@ -457,10 +465,10 @@
 
       <!-- Columna esquerra: text en 4 blocs -->
       <div class="s5-text">
-        <p class="s5-para reveal" style="transition-delay:0.08s">El proyecto <strong>Living History</strong> promueve el <strong>aprendizaje práctico de la IA</strong> entre adultos y docentes.</p>
-        <p class="s5-para reveal" style="transition-delay:0.22s">A través de <strong>talleres formativos</strong>, se enseña a <strong>entrenar chatbots</strong>, usar <strong>herramientas de RA</strong> y gestionar <strong>datos culturales</strong>.</p>
-        <p class="s5-para reveal" style="transition-delay:0.36s">El objetivo es <strong>acercar la tecnología</strong> a quienes normalmente no la usan, reforzando la <strong>confianza digital</strong> de los ciudadanos.</p>
-        <p class="s5-para reveal" style="transition-delay:0.50s">Las formaciones locales realizadas en <strong>Altea</strong> con el <strong>IES Bellaguarda</strong> son un ejemplo de cómo la <strong>IA</strong> puede integrarse en la <strong>enseñanza</strong>, el <strong>turismo</strong> y la <strong>cultura local</strong>.</p>
+        <p class="s5-para reveal" style="transition-delay:0.08s" data-i18n="slide05.text.0">El proyecto Living History promueve el aprendizaje práctico de la IA entre adultos y docentes.</p>
+        <p class="s5-para reveal" style="transition-delay:0.22s" data-i18n="slide05.text.1">A través de talleres formativos, se enseña a entrenar chatbots, usar herramientas de RA y gestionar datos culturales.</p>
+        <p class="s5-para reveal" style="transition-delay:0.36s" data-i18n="slide05.text.2">El objetivo es acercar la tecnología a quienes normalmente no la usan, reforzando la confianza digital de los ciudadanos.</p>
+        <p class="s5-para reveal" style="transition-delay:0.50s" data-i18n="slide05.text.3">Las formaciones locales realizadas en Altea con el IES Bellaguarda son un ejemplo de cómo la IA puede integrarse en la enseñanza, el turismo y la cultura local.</p>
       </div>
 
       <!-- Columna dreta: fotografia gran -->
@@ -475,8 +483,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">05 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s4')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s6')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s4')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s6')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -491,7 +499,7 @@
       <div class="slide-num-display">06</div>
       <div>
         <span class="slide-label" style="color:var(--amber)" data-i18n="s6.label">Contenidos históricos</span>
-        <h2 class="slide-title" data-i18n="s6.title">Adaptar contenidos históricos<br>a la formación en IA</h2>
+        <h2 class="slide-title" data-i18n="slide06.title">Adaptar contenidos históricos a la formación en IA</h2>
       </div>
     </div>
 
@@ -502,27 +510,27 @@
       <div class="s6-left">
         <div class="quote-block reveal">
           <div class="quote-mark">"</div>
-          <blockquote class="quote-text" data-i18n="s6.quote">La IA no reemplaza la historia: la amplifica.</blockquote>
+          <blockquote class="quote-text" data-i18n="slide06.text.0">La IA no reemplaza la historia: la amplifica.</blockquote>
         </div>
 
-        <p class="s6-intro-line reveal" data-i18n="s6.intro">Para que la IA pueda aprender, necesita materiales estructurados:</p>
+        <p class="s6-intro-line reveal" data-i18n="slide06.text.1">Para que la IA pueda aprender, necesita materiales estructurados:</p>
 
         <div class="content-list reveal">
           <div class="content-list-item">
             <div class="content-list-icon">📝</div>
-            <p data-i18n="s6.list1">Textos claros, cronologías, descripciones y anécdotas.</p>
+            <p data-i18n="slide06.bullets.0">Textos claros, cronologías, descripciones y anécdotas.</p>
           </div>
           <div class="content-list-item">
             <div class="content-list-icon">🤝</div>
-            <p data-i18n="s6.list2">Lenguaje inclusivo y neutral.</p>
+            <p data-i18n="slide06.bullets.1">Lenguaje inclusivo y neutral.</p>
           </div>
           <div class="content-list-item">
             <div class="content-list-icon">🎬</div>
-            <p data-i18n="s6.list3">Varios formatos: texto, imagen, voz.</p>
+            <p data-i18n="slide06.bullets.2">Varios formatos: texto, imagen, voz.</p>
           </div>
         </div>
 
-        <p class="slide-intro reveal" style="font-size:15px;" data-i18n="s6.body">Los docentes pueden utilizar estas herramientas para que los estudiantes participen en la creación de avatares históricos, fortaleciendo su comprensión de la historia local y su pensamiento crítico digital.</p>
+        <p class="slide-intro reveal" style="font-size:15px;" data-i18n="slide06.text.2">Los docentes pueden utilizar estas herramientas para que los estudiantes participen en la creación de avatares históricos, fortaleciendo su comprensión de la historia local y su pensamiento crítico digital.</p>
       </div>
 
       <!-- Right: avatar image -->
@@ -539,8 +547,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">06 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s5')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s7')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s5')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s7')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -553,7 +561,7 @@
       <div class="slide-num-display">07</div>
       <div>
         <span class="slide-label" style="color:var(--purple)" data-i18n="s7.label">Transferencia</span>
-        <h2 class="slide-title" data-i18n="s7.title">Transferencia a otros<br>contextos y municipios</h2>
+        <h2 class="slide-title" data-i18n="slide07.title">Transferencia a otros contextos y municipios</h2>
       </div>
     </div>
 
@@ -564,7 +572,7 @@
           <span class="tc-icon">🌲</span>
           <h3 class="transfer-title" data-i18n="s7.c1.title">Municipio rural</h3>
         </div>
-        <p class="transfer-desc" data-i18n="s7.c1.desc">Puede aplicarse en zonas rurales para combatir el despoblamiento. Un solo avatar de un personaje local legendario, activado por QR en la plaza mayor. Inversión mínima, impacto máximo.</p>
+        <p class="transfer-desc" data-i18n="slide07.bullets.0">Puede aplicarse en zonas rurales para combatir el despoblamiento.</p>
       </div>
 
       <div class="transfer-card">
@@ -572,7 +580,7 @@
           <span class="tc-icon">🏙</span>
           <h3 class="transfer-title" data-i18n="s7.c2.title">Ciudad turística</h3>
         </div>
-        <p class="transfer-desc" data-i18n="s7.c2.desc">En ciudades turísticas, puede diversificar la oferta cultural. Red de rutas temáticas con chatbots históricos en monumentos clave.</p>
+        <p class="transfer-desc" data-i18n="slide07.bullets.1">En ciudades turísticas, puede diversificar la oferta cultural.</p>
       </div>
 
       <div class="transfer-card">
@@ -580,7 +588,7 @@
           <span class="tc-icon">🏫</span>
           <h3 class="transfer-title" data-i18n="s7.c3.title">Centro educativo</h3>
         </div>
-        <p class="transfer-desc" data-i18n="s7.c3.desc">En escuelas, fomenta la educación digital y patrimonial. Talleres intergeneracionales donde alumnos entrevistan a mayores y construyen juntos el avatar digital.</p>
+        <p class="transfer-desc" data-i18n="slide07.bullets.2">En escuelas, fomenta la educación digital y patrimonial.</p>
       </div>
 
     </div>
@@ -595,8 +603,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">07 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s6')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s8')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s6')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s8')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -609,7 +617,7 @@
       <div class="slide-num-display">08</div>
       <div>
         <span class="slide-label" style="color:var(--green)" data-i18n="s8.label">Impacto</span>
-        <h2 class="slide-title" data-i18n="s8.title">Impacto y sostenibilidad</h2>
+        <h2 class="slide-title" data-i18n="slide08.title">Impacto y sostenibilidad</h2>
       </div>
     </div>
 
@@ -617,13 +625,13 @@
 
       <!-- LEFT: explanatory text + bullets -->
       <div class="s8-left">
-        <p class="s8-intro reveal" data-i18n="s8.intro">El éxito del proyecto se mide tanto en la participación social como en el uso real de las herramientas creadas.</p>
-        <p class="s8-sub reveal" data-i18n="s8.sub">Algunos indicadores sugeridos:</p>
-        <ul class="s8-bullets reveal" data-i18n="s8.bullets">
-          <li data-i18n="s8.b1">N.º de historias o lugares digitalizados.</li>
-          <li data-i18n="s8.b2">Participantes en talleres y sesiones locales.</li>
-          <li data-i18n="s8.b3">Visitas a QR o interacción con avatares.</li>
-          <li data-i18n="s8.b4">Nuevas colaboraciones generadas.</li>
+        <p class="s8-intro reveal" data-i18n="slide08.text.0">El éxito del proyecto se mide tanto en la participación social como en el uso real de las herramientas creadas.</p>
+        <p class="s8-sub reveal" data-i18n="slide08.text.1">Algunos indicadores sugeridos:</p>
+        <ul class="s8-bullets reveal" data-i18n="slide08.bullets">
+          <li>N.º de historias o lugares digitalizados.</li>
+          <li>Participantes en talleres y sesiones locales.</li>
+          <li>Visitas a QR o interacción con avatares.</li>
+          <li>Nuevas colaboraciones generadas.</li>
         </ul>
       </div>
 
@@ -661,8 +669,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">08 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s7')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s9')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s7')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s9')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -675,7 +683,7 @@
       <div class="slide-num-display">09</div>
       <div>
         <span class="slide-label" style="color:var(--amber)" data-i18n="s9.label">Consejos prácticos</span>
-        <h2 class="slide-title" data-i18n="s9.title">Consejos prácticos para iniciar<br>tu propio "Living History"</h2>
+        <h2 class="slide-title" data-i18n="slide09.title">Consejos prácticos para iniciar tu propio "Living History"</h2>
       </div>
     </div>
 
@@ -685,7 +693,7 @@
         <div class="check-box"></div>
         <div class="check-content">
           <div class="check-num">01</div>
-          <p data-i18n="s9.tip1">Empieza con un pequeño piloto: un personaje, una historia, un barrio.</p>
+          <p data-i18n="slide09.bullets.0">Empieza con un pequeño piloto: un personaje, una historia, un barrio.</p>
         </div>
       </div>
 
@@ -693,7 +701,7 @@
         <div class="check-box"></div>
         <div class="check-content">
           <div class="check-num">02</div>
-          <p data-i18n="s9.tip2">Crea un grupo local de apoyo (centro educativo + técnicos + asociaciones).</p>
+          <p data-i18n="slide09.bullets.1">Crea un grupo local de apoyo (centro educativo + técnicos + asociaciones).</p>
         </div>
       </div>
 
@@ -701,7 +709,7 @@
         <div class="check-box"></div>
         <div class="check-content">
           <div class="check-num">03</div>
-          <p data-i18n="s9.tip3">Usa herramientas accesibles, evita desarrollos costosos.</p>
+          <p data-i18n="slide09.bullets.2">Usa herramientas accesibles, evita desarrollos costosos.</p>
         </div>
       </div>
 
@@ -709,7 +717,7 @@
         <div class="check-box"></div>
         <div class="check-content">
           <div class="check-num">04</div>
-          <p data-i18n="s9.tip4">Documenta todo: testimonios, fotos, entrevistas.</p>
+          <p data-i18n="slide09.bullets.3">Documenta todo: testimonios, fotos, entrevistas.</p>
         </div>
       </div>
 
@@ -717,7 +725,7 @@
         <div class="check-box"></div>
         <div class="check-content">
           <div class="check-num">05</div>
-          <p data-i18n="s9.tip5">Celebra los resultados con la comunidad: exposición, paseo, acto público.</p>
+          <p data-i18n="slide09.bullets.4">Celebra los resultados con la comunidad: exposición, paseo, acto público.</p>
         </div>
       </div>
 
@@ -730,8 +738,8 @@
     <div class="slide-nav-bar">
       <span class="slide-nav-count">09 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s8')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('s10')">Siguiente →</button>
+        <button class="slide-nav-btn" onclick="goSlide('s8')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('s10')" data-i18n="nav.next">Siguiente →</button>
       </div>
     </div>
   </div>
@@ -755,8 +763,8 @@
     <div class="slide-header reveal">
       <div class="slide-num-display">10</div>
       <div>
-        <span class="slide-label" style="color:var(--blue)">Recursos y Anexos</span>
-        <h2 class="slide-title">Recursos y anexos</h2>
+        <span class="slide-label" style="color:var(--blue)" data-i18n="s10.label">Recursos y Anexos</span>
+        <h2 class="slide-title" data-i18n="slide10.title">Recursos y anexos</h2>
       </div>
     </div>
 
@@ -764,15 +772,15 @@
     <div class="s10-resources reveal" style="transition-delay:0.12s">
       <div class="s10-card">
         <span class="s10-card-icon">📘</span>
-        <p class="s10-card-text">Guía ética para el uso de IA en patrimonio cultural</p>
+        <p class="s10-card-text" data-i18n="slide10.resources.0">Guía ética para el uso de IA en patrimonio cultural</p>
       </div>
       <div class="s10-card">
         <span class="s10-card-icon">📋</span>
-        <p class="s10-card-text">Plantilla de recogida de historias y entrevistas</p>
+        <p class="s10-card-text" data-i18n="slide10.resources.1">Plantilla de recogida de historias y entrevistas</p>
       </div>
       <div class="s10-card">
         <span class="s10-card-icon">🌐</span>
-        <p class="s10-card-text">Bancos de datos culturales europeos
+        <p class="s10-card-text"><span data-i18n="s10.card3label">Bancos de datos culturales europeos</span>
           <span class="s10-card-links">
             <a href="https://www.europeana.eu" target="_blank" rel="noopener" class="s10-link">Europeana</a>
             <span class="s10-link-sep">·</span>
@@ -782,7 +790,7 @@
       </div>
       <div class="s10-card">
         <span class="s10-card-icon">⭐</span>
-        <p class="s10-card-text">Proyecto Erasmus+
+        <p class="s10-card-text"><span data-i18n="s10.card4label">Proyecto Erasmus+</span>
           <span class="s10-card-links">
             <a href="https://erasmus-plus.ec.europa.eu" target="_blank" rel="noopener" class="s10-link">erasmus-plus.ec.europa.eu ↗</a>
           </span>
@@ -792,8 +800,8 @@
 
     <!-- Closing quote -->
     <div class="s10-closing">
-      <blockquote class="s10-quote reveal" style="transition-delay:0.28s" data-i18n="s10.closingquote">
-        Cada historia local puede transformarse en un diálogo vivo entre pasado y futuro.<br>
+      <blockquote class="s10-quote reveal" style="transition-delay:0.28s" data-i18n="slide10.footer_quote">
+        Cada historia local puede transformarse en un diálogo vivo entre pasado y futuro.
         La inteligencia artificial nos da la voz; la memoria, el alma.
       </blockquote>
       <p class="s10-sub reveal" style="transition-delay:0.45s" data-i18n="s10.closingsub">
@@ -805,8 +813,8 @@
     <div class="slide-nav-bar s10-nav-bar">
       <span class="slide-nav-count">10 / 10</span>
       <div style="display:flex;gap:12px;">
-        <button class="slide-nav-btn" onclick="goSlide('s9')">← Anterior</button>
-        <button class="slide-nav-btn" onclick="goSlide('portada')">↑ Inicio</button>
+        <button class="slide-nav-btn" onclick="goSlide('s9')" data-i18n="nav.prev">← Anterior</button>
+        <button class="slide-nav-btn" onclick="goSlide('portada')" data-i18n="nav.home">↑ Inicio</button>
       </div>
     </div>
 

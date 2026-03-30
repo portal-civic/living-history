@@ -20,7 +20,11 @@ const translations = {
     },
     slide03: {
       title: "Cómo utilizar la IA para la explotación del patrimonio cultural",
-      text: "La IA permite transformar datos históricos en experiencias vivas. Desde la creación de chatbots históricos hasta recorridos virtuales con realidad aumentada, las posibilidades son múltiples. Ejemplos prácticos:",
+      text: [
+        "La IA permite transformar datos históricos en experiencias vivas.",
+        "Desde la creación de chatbots históricos hasta recorridos virtuales con realidad aumentada, las posibilidades son múltiples.",
+        "Ejemplos prácticos:"
+      ],
       bullets: [
         "Chatbots históricos: permiten a visitantes conversar con personajes como “El Guerrero de la Estela Ibérica”",
         "Análisis de archivos y fotografías antiguas: la IA puede reconocer lugares y vincularlos a relatos orales.",
@@ -77,11 +81,20 @@ const translations = {
     },
     slide05: {
       title: "Mejorar las habilidades digitales de los adultos",
-      text: "El proyecto Living History promueve el aprendizaje práctico de la IA entre adultos y docentes. A través de talleres formativos, se enseña a entrenar chatbots, usar herramientas de RA y gestionar datos culturales. El objetivo es acercar la tecnología a quienes normalmente no la usan, reforzando la confianza digital de los ciudadanos. Las formaciones locales realizadas en Altea con el IES Bellaguarda son un ejemplo de cómo la IA puede integrarse en la enseñanza, el turismo y la cultura local."
+      text: [
+        "El proyecto Living History promueve el aprendizaje práctico de la IA entre adultos y docentes.",
+        "A través de talleres formativos, se enseña a entrenar chatbots, usar herramientas de RA y gestionar datos culturales.",
+        "El objetivo es acercar la tecnología a quienes normalmente no la usan, reforzando la confianza digital de los ciudadanos.",
+        "Las formaciones locales realizadas en Altea con el IES Bellaguarda son un ejemplo de cómo la IA puede integrarse en la enseñanza, el turismo y la cultura local."
+      ]
     },
     slide06: {
       title: "Adaptar contenidos históricos a la formación en IA",
-      text: "La IA no reemplaza la historia: la amplifica. Para que la IA pueda aprender, necesita materiales estructurados: Los docentes pueden utilizar estas herramientas para que los estudiantes participen en la creación de avatares históricos, fortaleciendo su comprensión de la historia local y su pensamiento crítico digital.",
+      text: [
+        "La IA no reemplaza la historia: la amplifica.",
+        "Para que la IA pueda aprender, necesita materiales estructurados:",
+        "Los docentes pueden utilizar estas herramientas para que los estudiantes participen en la creación de avatares históricos, fortaleciendo su comprensión de la historia local y su pensamiento crítico digital."
+      ],
       bullets: [
         "Textos claros, cronologías, descripciones y anécdotas.",
         "Lenguaje inclusivo y neutral.",
@@ -90,7 +103,10 @@ const translations = {
     },
     slide07: {
       title: "Transferencia a otros contextos y municipios",
-      text: "El enfoque de Living History es completamente transferible: El secreto está en adaptar la escala: un pequeño municipio puede empezar con un único avatar o ruta interactiva y crecer progresivamente.",
+      text: [
+        "El enfoque de Living History es completamente transferible:",
+        "El secreto está en adaptar la escala: un pequeño municipio puede empezar con un único avatar o ruta interactiva y crecer progresivamente."
+      ],
       bullets: [
         "Puede aplicarse en zonas rurales para combatir el despoblamiento.",
         "En ciudades turísticas, puede diversificar la oferta cultural.",
@@ -99,7 +115,10 @@ const translations = {
     },
     slide08: {
       title: "Impacto y sostenibilidad",
-      text: "El éxito del proyecto se mide tanto en la participación social como en el uso real de las herramientas creadas. Algunos indicadores sugeridos:",
+      text: [
+        "El éxito del proyecto se mide tanto en la participación social como en el uso real de las herramientas creadas.",
+        "Algunos indicadores sugeridos:"
+      ],
       bullets: [
         "N.º de historias o lugares digitalizados.",
         "Participantes en talleres y sesiones locales.",
@@ -149,7 +168,11 @@ const translations = {
     },
     slide03: {
       title: "Com utilitzar la IA per a l’explotació del patrimoni cultural",
-      text: "La IA permet transformar dades històriques en experiències vives. Des de la creació de xatbots històrics fins a recorreguts virtuals amb realitat augmentada, les possibilitats són múltiples. Exemples pràctics:",
+      text: [
+        "La IA permet transformar dades històriques en experiències vives.",
+        "Des de la creació de xatbots històrics fins a recorreguts virtuals amb realitat augmentada, les possibilitats són múltiples.",
+        "Exemples pràctics:"
+      ],
       bullets: [
         "Xatbots històrics: permeten a visitants conversar amb personatges com “El Guerrer de l’Estela Ibèrica”",
         "Anàlisi d’arxius i fotografies antigues: la IA pot reconéixer llocs i vincular-los a relats orals.",
@@ -206,11 +229,20 @@ const translations = {
     },
     slide05: {
       title: "Millorar les habilitats digitals dels adults",
-      text: "El projecte Living History promou l’aprenentatge pràctic de la IA entre adults i docents. A través de tallers formatius, s’ensenya a entrenar a xatbots, usar ferramentes de RA i gestionar dades culturals. L’objectiu és apropar la tecnologia a qui normalment no la usa, reforçant la confiança digital dels ciutadans. Les formacions locals realitzades a Altea amb l’IES Bellaguarda són un ejemplo de como la IA puede integrar-se en la ensenyança, el turismo y la cultura local."
+      text: [
+        "El projecte Living History promou l’aprenentatge pràctic de la IA entre adults i docents.",
+        "A través de tallers formatius, s’ensenya a entrenar a xatbots, usar ferramentes de RA i gestionar dades culturals.",
+        "L’objectiu és apropar la tecnologia a qui normalment no la usa, reforçant la confiança digital dels ciutadans.",
+        "Les formacions locals realitzades a Altea amb l’IES Bellaguarda són un exemple de com la IA pot integrar-se en l’ensenyança, el turisme i la cultura local."
+      ]
     },
     slide06: {
       title: "Adaptar continguts històrics a la formació en IA",
-      text: "La IA no reemplaça la historia: l’amplifica. Perquè la IA puga aprendre, necessita materials estructurats: Els docents poden utilitzar aquestes ferramentes perquè els estudiants participen en la creació d’avatars històrics, enfortint la seua comprensió de la història local i el seu pensament crític digital.",
+      text: [
+        "La IA no reemplaça la història: l’amplifica.",
+        "Perquè la IA puga aprendre, necessita materials estructurats:",
+        "Els docents poden utilitzar aquestes ferramentes perquè els estudiants participen en la creació d’avatars històrics, enfortint la seua comprensió de la història local i el seu pensament crític digital."
+      ],
       bullets: [
         "Textos clars, cronologies, descripcions i anècdotes.",
         "Llenguatge inclusiu i neutral.",
@@ -219,7 +251,10 @@ const translations = {
     },
     slide07: {
       title: "Transferència a altres contextos i municipis",
-      text: "L’enfocament de Living History és completament transferible: El secret està en adaptar l’escala: un xicotet municipi pot començar amb un únic avatar o ruta interactiva i créixer progressivament.",
+      text: [
+        "L’enfocament de Living History és completament transferible:",
+        "El secret està en adaptar l’escala: un xicotet municipi pot començar amb un únic avatar o ruta interactiva i créixer progressivament."
+      ],
       bullets: [
         "Pot aplicar-se a zones rurals per a combatre el despoblament.",
         "En ciutats turístiques, pot diversificar l’oferta cultural.",
@@ -228,7 +263,10 @@ const translations = {
     },
     slide08: {
       title: "Impacte i sostenibilitat",
-      text: "L’èxit del projecte es mesura tant en la participació social com en l’ús real de les ferramentes creades. Alguns indicadors suggerits:",
+      text: [
+        "L’èxit del projecte es mesura tant en la participació social com en l’ús real de les ferramentes creades.",
+        "Alguns indicadors suggerits:"
+      ],
       bullets: [
         "Nre. d’històries o llocs digitalitzats.",
         "Participants en tallers i sessions locals.",
@@ -278,7 +316,11 @@ const translations = {
     },
     slide03: {
       title: "Come utilizzare l'IA per la valorizzazione del patrimonio culturale",
-      text: "L'IA permette di trasformare i dati storici in esperienze vive. Dalla creazione di chatbot storici ai tour virtuali con realtà aumentata, le possibilità sono molteplici. Esempi pratici:",
+      text: [
+        "L'IA permette di trasformare i dati storici in esperienze vive.",
+        "Dalla creazione di chatbot storici ai tour virtuali con realtà aumentata, le possibilità sono molteplici.",
+        "Esempi pratici:"
+      ],
       bullets: [
         "Chatbot storici: permettono ai visitatori di conversare con personaggi come \"Il Guerriero della Stele Iberica\".",
         "Analisi di archivi e vecchie fotografie: l'IA può riconoscere i luoghi e collegarli a racconti orali.",
@@ -335,11 +377,20 @@ const translations = {
     },
     slide05: {
       title: "Migliorare le competenze digitali degli adulti",
-      text: "Il progetto “Living History” promuove l'apprendimento pratico dell'IA tra adulti e insegnanti. Attraverso workshop formativi, insegna come addestrare chatbot, utilizzare strumenti di RA (Realtà Aumentata) e gestire dati culturali. L'obiettivo è avvicinare la tecnologia a coloro che normalmente non la usano, rafforzando la fiducia dei cittadini sul digitale. I laboratori locali condotti ad Altea con lo IES Bellaguarda sono un esempio di come l'IA possa essere integrata nell'insegnamento, nel turismo e nella cultura locale."
+      text: [
+        "Il progetto “Living History” promuove l'apprendimento pratico dell'IA tra adulti e insegnanti.",
+        "Attraverso workshop formativi, insegna come addestrare chatbot, utilizzare strumenti di RA (Realtà Aumentata) e gestire dati culturali.",
+        "L'obiettivo è avvicinare la tecnologia a coloro che normalmente non la usano, rafforzando la fiducia dei cittadini sul digitale.",
+        "I laboratori locali condotti ad Altea con lo IES Bellaguarda sono un esempio di come l'IA possa essere integrata nell'insegnamento, nel turismo e nella cultura locale."
+      ]
     },
     slide06: {
       title: "Adattamento dei contenuti storici all'addestramento dell'IA",
-      text: "L'IA non sostituisce la storia: la amplifica. Affinché l'IA possa imparare, ha bisogno di materiali strutturati: Gli insegnanti possono utilizzare questi strumenti per coinvolgere gli studenti nella creazione di avatar storici, rafforzando la loro comprensione della storia locale e il pensiero critico sul digitale.",
+      text: [
+        "L'IA non sostituisce la storia: la amplifica.",
+        "Affinché l'IA possa imparare, ha bisogno di materiali strutturati:",
+        "Gli insegnanti possono utilizzare questi strumenti per coinvolgere gli studenti nella creazione di avatar storici, rafforzando la loro comprensione della storia locale e il pensiero critico sul digitale."
+      ],
       bullets: [
         "Testi chiari, cronologie, descrizioni e aneddoti.",
         "Linguaggio inclusivo e neutrale.",
@@ -348,7 +399,10 @@ const translations = {
     },
     slide07: {
       title: "Trasferimento in altri contesti e comuni",
-      text: "L'approccio Living History è pienamente trasferibile: Il segreto sta nell'adattare la scala: un piccolo comune può iniziare con un singolo avatar o un percorso interattivo e crescere progressivamente.",
+      text: [
+        "L'approccio Living History è pienamente trasferibile:",
+        "Il segreto sta nell'adattare la scala: un piccolo comune può iniziare con un singolo avatar o un percorso interattivo e crescere progressivamente."
+      ],
       bullets: [
         "Può essere applicato nelle aree rurali per combattere lo spopolamento.",
         "Nelle città turistiche, può diversificare l'offerta culturale.",
@@ -357,7 +411,10 @@ const translations = {
     },
     slide08: {
       title: "Impatto e sostenibilità",
-      text: "Il successo del progetto si misura sia in termini di partecipazione sociale che di effettivo utilizzo degli strumenti creati. Alcuni indicatori suggeriti:",
+      text: [
+        "Il successo del progetto si misura sia in termini di partecipazione sociale che di effettivo utilizzo degli strumenti creati.",
+        "Alcuni indicatori suggeriti:"
+      ],
       bullets: [
         "Numero di storie o luoghi digitalizzati.",
         "Partecipanti ai workshop e alle sessioni locali.",
@@ -407,7 +464,11 @@ const translations = {
     },
     slide03: {
       title: "How to Use AI for Cultural Heritage Exploitation",
-      text: "AI enables transforming historical data into living experiences. From creating historical chatbots to virtual tours with augmented reality, the possibilities are multiple. Practical examples:",
+      text: [
+        "AI enables transforming historical data into living experiences.",
+        "From creating historical chatbots to virtual tours with augmented reality, the possibilities are multiple.",
+        "Practical examples:"
+      ],
       bullets: [
         "Historical chatbots: allow visitors to converse with characters like \"The Warrior of the Iberian Stele\"",
         "Analysis of archives and old photographs: AI can recognize places and link them to oral stories.",
@@ -457,18 +518,27 @@ const translations = {
         {
           title: "Evaluation and Sustainability",
           bullets: [
-            " Measure educational, tourist, and social impact."
+            "Measure educational, tourist, and social impact."
           ]
         }
       ]
     },
     slide05: {
       title: "Improving Adults' Digital Skills",
-      text: "The Living History project promotes practical AI learning among adults and teachers. Through training workshops, it teaches how to train chatbots, use AR tools, and manage cultural data. The goal is to bring technology closer to those who normally do not use it, reinforcing citizens' digital confidence. Local trainings conducted in Altea with IES Bellaguarda are an example of how AI can be integrated into teaching, tourism, and local culture."
+      text: [
+        "The Living History project promotes practical AI learning among adults and teachers.",
+        "Through training workshops, it teaches how to train chatbots, use AR tools, and manage cultural data.",
+        "The goal is to bring technology closer to those who normally do not use it, reinforcing citizens' digital confidence.",
+        "Local trainings conducted in Altea with IES Bellaguarda are an example of how AI can be integrated into teaching, tourism, and local culture."
+      ]
     },
     slide06: {
       title: "Adapting Historical Content to AI Training",
-      text: "AI does not replace history: it amplifies it. For AI to learn, it needs structured materials: Teachers can use these tools for students to participate in creating historical avatars, strengthening their understanding of local history and digital critical thinking.",
+      text: [
+        "AI does not replace history: it amplifies it.",
+        "For AI to learn, it needs structured materials:",
+        "Teachers can use these tools for students to participate in creating historical avatars, strengthening their understanding of local history and digital critical thinking."
+      ],
       bullets: [
         "Clear texts, chronologies, descriptions, and anecdotes.",
         "Inclusive and neutral language.",
@@ -477,7 +547,10 @@ const translations = {
     },
     slide07: {
       title: "Transfer to Other Contexts and Municipalities",
-      text: "The Living History approach is fully transferable: The secret is to adapt the scale: a small municipality can start with a single avatar or interactive route and grow progressively.",
+      text: [
+        "The Living History approach is fully transferable:",
+        "The secret is to adapt the scale: a small municipality can start with a single avatar or interactive route and grow progressively."
+      ],
       bullets: [
         "It can be applied in rural areas to combat depopulation.",
         "In tourist cities, it can diversify cultural offerings.",
@@ -486,7 +559,10 @@ const translations = {
     },
     slide08: {
       title: "Impact and Sustainability",
-      text: "The project's success is measured both in social participation and the real use of the created tools. Some suggested indicators:",
+      text: [
+        "The project's success is measured both in social participation and the real use of the created tools.",
+        "Some suggested indicators:"
+      ],
       bullets: [
         "No. of digitized stories or places.",
         "Participants in workshops and local sessions.",
@@ -509,7 +585,7 @@ const translations = {
       resources: [
         "Ethical guide for the use of AI in cultural heritage.",
         "Template for collecting stories and interviews.",
-        "Link to European cultural databases (European, Wikimedia Commons).",
+        "Link to European cultural databases (Europeana, Wikimedia Commons).",
         "Link to the Erasmus+ project: https://erasmus-plus.ec.europa.eu"
       ],
       footer_quote: "Every local story can be transformed into a living dialogue between past and future. Artificial intelligence gives it voice; memory, the soul."
