@@ -1490,6 +1490,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 .s10-resources {
   display: grid; grid-template-columns: 1fr 1fr;
   gap: 11px;
+  max-width: 940px;
+  margin: 0 auto;
 }
 .s10-card {
   display: flex; align-items: flex-start; gap: 12px;
@@ -1517,7 +1519,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 
 /* Closing quote */
 .s10-closing {
-  margin-top: 24px; text-align: center;
+  margin-top: clamp(40px, 6vw, 60px); text-align: center;
   border-top: 1px solid rgba(255,255,255,0.12);
   padding-top: 16px;
 }
@@ -1540,7 +1542,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 @media(max-width:700px){
   #s10.s10-hero  { padding: 0 24px; }
   .s10-resources { grid-template-columns: 1fr; gap: 8px; }
-  .s10-closing   { margin-top: 24px; }
+  .s10-closing   { margin-top: 40px; }
 }
 
 /* ══════════════════════════════════════════════════════════════

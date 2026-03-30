@@ -139,8 +139,6 @@ const translations = {
     slide10: {
       title: "Recursos y anexos",
       resources: [
-        "Guía ética para el uso de IA en patrimonio cultural.",
-        "Plantilla de recogida de historias y entrevistas.",
         "Enlace a bancos de datos culturales europeos (Europeana, Wikimedia Commons).",
         "Enlace al proyecto Erasmus+: https://erasmus-plus.ec.europa.eu"
       ],
@@ -287,8 +285,6 @@ const translations = {
     slide10: {
       title: "Recursos i annexos",
       resources: [
-        "Guia ètica per a l’ús d’IA en el patrimoni cultural.",
-        "Plantilla de recollida d’històries i entrevistes.",
         "Enllaç a bancs de dades culturals europees (Europeana, Wikimedia Commons).",
         "Enllaç al projecte Erasmus+: https://erasmus-plus.ec.europa.eu"
       ],
@@ -435,8 +431,6 @@ const translations = {
     slide10: {
       title: "Risorse e allegati",
       resources: [
-        "Guida etica per l'uso dell'IA nel patrimonio culturale.",
-        "Modello per la raccolta di storie e interviste.",
         "Link alle banche dati culturali europee (Europeana, Wikimedia Commons).",
         "Link al progetto Erasmus+: https://erasmus-plus.ec.europa.eu"
       ],
@@ -583,8 +577,6 @@ const translations = {
     slide10: {
       title: "Resources and Annexes",
       resources: [
-        "Ethical guide for the use of AI in cultural heritage.",
-        "Template for collecting stories and interviews.",
         "Link to European cultural databases (Europeana, Wikimedia Commons).",
         "Link to the Erasmus+ project: https://erasmus-plus.ec.europa.eu"
       ],
