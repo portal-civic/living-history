@@ -1741,10 +1741,10 @@ nav.scrolled .nav-slide-link { color: #64748b; }
 @media(max-width:560px){
   /* Glow blobs */
   #cg-altea    { left: 32%   !important; top: 66%   !important; }
-  #cg-molfetta { left: 58%   !important; top: 55%   !important; }
-  #cg-karditsa { left: 78%   !important; top: 61%   !important; }
+  #cg-molfetta { left: 54%   !important; top: 55%   !important; }
+  #cg-karditsa { left: 81%   !important; top: 61%   !important; }
   /* Markers */
   #mk-altea    { left: 32%   !important; top: 66%   !important; }
-  #mk-molfetta { left: 58%   !important; top: 55%   !important; }
-  #mk-karditsa { left: 78%   !important; top: 61%   !important; }
+  #mk-molfetta { left: 54%   !important; top: 55%   !important; }
+  #mk-karditsa { left: 81%   !important; top: 61%   !important; }
 }
