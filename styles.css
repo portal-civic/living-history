@@ -1736,9 +1736,15 @@ nav.scrolled .nav-slide-link { color: #64748b; }
 }
 
 /* ── Slide 02: correccions de posició dels markers NOMÉS en mòbil estret ── */
-/* Usa IDs per vèncer els style="" inline. No afecta desktop ni tablet.       */
+/* Recalculats per a aspect-ratio 4:3: top_mobil = top_desktop × (9/16)/(3/4) = top × 0.75 */
+/* Usa IDs per vèncer els style="" inline. No afecta desktop ni tablet.                      */
 @media(max-width:560px){
-  #mk-altea    { left: 30%   !important; top: 83%   !important; }
-  #mk-molfetta { left: 54%   !important; top: 65%   !important; }
-  #mk-karditsa { left: 79%   !important; top: 74%   !important; }
+  /* Glow blobs */
+  #cg-altea    { left: 32%   !important; top: 66%   !important; }
+  #cg-molfetta { left: 58%   !important; top: 55%   !important; }
+  #cg-karditsa { left: 78%   !important; top: 61%   !important; }
+  /* Markers */
+  #mk-altea    { left: 32%   !important; top: 66%   !important; }
+  #mk-molfetta { left: 58%   !important; top: 55%   !important; }
+  #mk-karditsa { left: 78%   !important; top: 61%   !important; }
 }
