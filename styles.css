@@ -665,9 +665,14 @@ nav.scrolled .nav-slide-link { color: #64748b; }
 @media(max-width:900px){
   .s2-layout { grid-template-columns: 1fr; gap: 20px; }
   .s2-obj-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  /* Safari fix: sense min-width:0, els grid items no s'encongeixen i el mapa desborda */
+  .s2-map-wrap { min-width: 0; width: 100%; max-width: 100%; }
+  .s2-map-container { width: 100%; max-width: 100%; min-width: 0; }
 }
 @media(max-width:560px){
   .s2-obj-list { grid-template-columns: 1fr; }
+  /* Proporció més alta en mòbil: 4:3 en lloc de 16:9 → +33% d'alçada visible */
+  .s2-map-container { aspect-ratio: 4 / 3; }
 }
 
 /* S2-specific overrides to keep slide compact */
