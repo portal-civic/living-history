@@ -665,9 +665,20 @@ nav.scrolled .nav-slide-link { color: #64748b; }
 @media(max-width:900px){
   .s2-layout { grid-template-columns: 1fr; gap: 20px; }
   .s2-obj-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-  /* Safari fix: sense min-width:0, els grid items no s'encongeixen i el mapa desborda */
-  .s2-map-wrap { min-width: 0; width: 100%; max-width: 100%; }
+  /* Safari fix ① — grid item must be able to shrink */
+  .s2-map-wrap { min-width: 0; width: 100%; max-width: 100%; overflow: hidden; }
+  /* Safari fix ② — container té mida explícita i no pot créixer per contingut */
   .s2-map-container { width: 100%; max-width: 100%; min-width: 0; }
+  /* Safari fix ③ — treure la img del flux és la clau:
+     width:140% en flux estira el contenidor; com a absolute no pot fer-ho.
+     Les percentatges de left/margin-top seguixen referenciant l'ample del contenidor. */
+  .s2-map-img {
+    position: absolute;
+    width: 140%;
+    left: -23%;
+    top: 0;
+    margin-top: -36%;
+  }
 }
 @media(max-width:560px){
   .s2-obj-list { grid-template-columns: 1fr; }
