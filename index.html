@@ -39,10 +39,27 @@
       <a href="#s10" class="nav-slide-link" data-target="s10" onclick="goSlide('s10')">10</a>
     </div>
     <div class="lang-selector" role="navigation" aria-label="Language selector">
+      <!-- Desktop: 4 pill buttons -->
       <button class="lang-btn active" data-lang="es" onclick="setLanguage('es')">ES</button>
       <button class="lang-btn" data-lang="va" onclick="setLanguage('va')">VA</button>
       <button class="lang-btn" data-lang="it" onclick="setLanguage('it')">IT</button>
       <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+      <!-- Mobile: compact dropdown -->
+      <div class="lang-mobile">
+        <button class="lang-mobile-toggle" id="lang-mobile-toggle"
+                onclick="toggleLangDropdown()"
+                aria-haspopup="listbox" aria-expanded="false"
+                aria-label="Select language">
+          <span id="lang-mobile-current">ES</span>
+          <span class="lang-mobile-arrow" aria-hidden="true">▾</span>
+        </button>
+        <div class="lang-mobile-menu" id="lang-mobile-menu" role="listbox">
+          <button class="lang-mobile-option active" data-lang="es" onclick="selectMobileLang('es')" role="option">ES</button>
+          <button class="lang-mobile-option" data-lang="va" onclick="selectMobileLang('va')" role="option">VA</button>
+          <button class="lang-mobile-option" data-lang="it" onclick="selectMobileLang('it')" role="option">IT</button>
+          <button class="lang-mobile-option" data-lang="en" onclick="selectMobileLang('en')" role="option">EN</button>
+        </div>
+      </div>
     </div>
     <a href="https://erasmus-plus.ec.europa.eu" target="_blank" class="nav-eu-badge" rel="noopener">
       <img src="assets/logos/EN_Co-fundedbytheEU_RGB_POS.png" alt="Co-funded by the European Union" class="nav-eu-logo">

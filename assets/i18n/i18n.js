@@ -269,9 +269,16 @@ function setLanguage(lang) {
   document.documentElement.setAttribute('data-lang', lang);
   localStorage.setItem('lh-lang', lang);
 
-  // Update selector buttons
+  // Update desktop pill buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+
+  // Update mobile compact selector
+  const mobileLabel = document.getElementById('lang-mobile-current');
+  if (mobileLabel) mobileLabel.textContent = lang.toUpperCase();
+  document.querySelectorAll('.lang-mobile-option').forEach(opt => {
+    opt.classList.toggle('active', opt.dataset.lang === lang);
   });
 
   // Translate all marked elements
@@ -316,8 +323,36 @@ function setLanguage(lang) {
   }
 }
 
+// ─── MOBILE DROPDOWN ─────────────────────────────────────────────────────────
+
+function closeLangDropdown() {
+  const menu   = document.getElementById('lang-mobile-menu');
+  const toggle = document.getElementById('lang-mobile-toggle');
+  if (menu)   menu.classList.remove('open');
+  if (toggle) toggle.setAttribute('aria-expanded', 'false');
+}
+
+function toggleLangDropdown() {
+  const menu   = document.getElementById('lang-mobile-menu');
+  const toggle = document.getElementById('lang-mobile-toggle');
+  if (!menu || !toggle) return;
+  const opening = !menu.classList.contains('open');
+  menu.classList.toggle('open', opening);
+  toggle.setAttribute('aria-expanded', String(opening));
+}
+
+function selectMobileLang(lang) {
+  setLanguage(lang);
+  closeLangDropdown();
+}
+
 // ─── INIT ────────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   const saved = localStorage.getItem('lh-lang') || 'es';
   setLanguage(saved);
+
+  // Close mobile dropdown when clicking outside
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.lang-mobile')) closeLangDropdown();
+  });
 });
