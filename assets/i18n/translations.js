@@ -149,7 +149,12 @@ const translations = {
         "Usa herramientas accesibles, evita desarrollos costosos.",
         "Documenta todo: testimonios, fotos, entrevistas.",
         "Celebra los resultados con la comunidad: exposición, paseo, acto público."
-      ]
+      ],
+      final_popup: {
+        title: "🎉 ¡Listo para lanzar tu propio Living History!",
+        text: "Has completado todos los pasos. Ahora es el momento de empezar.",
+        button: "Continuar →"
+      }
     },
     slide10: {
       title: "Recursos y anexos",
@@ -310,7 +315,12 @@ const translations = {
         "Usa ferramentes accessibles, evita desenvolupaments costosos.",
         "Documenta tot: testimonis, fotos, entrevistes.",
         "Celebra els resultats amb la comunitat: exposició, passeig, acte públic."
-      ]
+      ],
+      final_popup: {
+        title: "🎉 Ja estàs preparat per a llançar el teu propi Living History!",
+        text: "Has completat tots els passos. Ara és el moment de començar.",
+        button: "Continuar →"
+      }
     },
     slide10: {
       title: "Recursos i annexos",
@@ -471,7 +481,12 @@ const translations = {
         "Utilizza strumenti accessibili, evita sviluppi costosi.",
         "Documenta tutto: testimonianze, foto, interviste.",
         "Celebra i risultati con la comunità: mostra, passeggiata, evento pubblico."
-      ]
+      ],
+      final_popup: {
+        title: "🎉 Pronto per lanciare il tuo Living History!",
+        text: "Hai completato tutti i passaggi. Ora è il momento di iniziare.",
+        button: "Continua →"
+      }
     },
     slide10: {
       title: "Risorse e allegati",
@@ -632,7 +647,12 @@ const translations = {
         "Use accessible tools, avoid costly developments.",
         "Document everything: testimonies, photos, interviews.",
         "Celebrate results with the community: exhibition, walk, public event."
-      ]
+      ],
+      final_popup: {
+        title: "🎉 Ready to launch your own Living History!",
+        text: "You have completed all the steps. Now it's time to begin.",
+        button: "Continue →"
+      }
     },
     slide10: {
       title: "Resources and Annexes",

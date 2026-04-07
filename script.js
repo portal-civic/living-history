@@ -300,6 +300,13 @@ function toggleCheck(el) {
 
 // ─── CELEBRATION MODAL ──────────────────────────────────────────────────────
 function openCelebration() {
+  const lang = document.documentElement.getAttribute('data-lang') || 'es';
+  const fp = translations[lang] && translations[lang].slide09 && translations[lang].slide09.final_popup;
+  if (fp) {
+    document.querySelector('.celebration-title').textContent = fp.title;
+    document.querySelector('.celebration-sub').textContent   = fp.text;
+    document.querySelector('.celebration-cta').textContent   = fp.button;
+  }
   document.getElementById('celebration-modal').classList.add('open');
 }
 
