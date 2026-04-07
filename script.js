@@ -286,6 +286,7 @@ function toggleCheck(el) {
 
   const total = document.querySelectorAll('.check-item').length;
   const done  = document.querySelectorAll('.check-item.done').length;
+
   if (done === total) {
     openCelebration();
   }

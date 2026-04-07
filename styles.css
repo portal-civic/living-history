@@ -1512,15 +1512,80 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 .check-item.done { border-color: var(--green); background: #f0fdf4; }
 .check-item.done::before { transform: scaleX(1); }
 
+/* ── Slide 09: check-box idle microanimation ──────────────────── */
+@keyframes checkBreath {
+  0%, 100% { transform: scale(1);    box-shadow: 0 0 0 0   rgba(96,165,250,0);    border-color: #cbd5e1; }
+  50%       { transform: scale(1.08); box-shadow: 0 0 0 5px rgba(96,165,250,0.14); border-color: #93c5fd; }
+}
+@keyframes checkRingPulse {
+  0%        { transform: scale(1);   opacity: 0.6; }
+  70%, 100% { transform: scale(1.8); opacity: 0;   }
+}
+@keyframes checkGhostFade {
+  0%, 100%  { opacity: 0;    transform: scale(0.85); }
+  35%, 65%  { opacity: 0.28; transform: scale(1);    }
+}
+
 .check-box {
   width: 40px; height: 40px; border-radius: 50%;
   border: 2px solid #cbd5e1;
   display: flex; align-items: center; justify-content: center;
   font-size: 18px; font-weight: 700; color: var(--green);
-  transition: all 0.25s;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
   flex-shrink: 0;
+  position: relative;
+  animation: checkBreath 2.8s ease-in-out infinite;
 }
-.check-item.done .check-box { background: var(--green); border-color: var(--green); color: #fff; }
+
+/* Halo ring */
+.check-box::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(96,165,250,0.55);
+  animation: checkRingPulse 2.8s ease-out infinite;
+  pointer-events: none;
+}
+
+/* Ghost check */
+.check-box::after {
+  content: '✓';
+  position: absolute;
+  font-size: 15px;
+  font-weight: 700;
+  color: #93c5fd;
+  line-height: 1;
+  animation: checkGhostFade 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Staggered delays so cards pulse in a gentle wave */
+.check-item:nth-child(1) .check-box,
+.check-item:nth-child(1) .check-box::before,
+.check-item:nth-child(1) .check-box::after { animation-delay: 0s; }
+
+.check-item:nth-child(2) .check-box,
+.check-item:nth-child(2) .check-box::before,
+.check-item:nth-child(2) .check-box::after { animation-delay: 0.5s; }
+
+.check-item:nth-child(3) .check-box,
+.check-item:nth-child(3) .check-box::before,
+.check-item:nth-child(3) .check-box::after { animation-delay: 1.0s; }
+
+.check-item:nth-child(4) .check-box,
+.check-item:nth-child(4) .check-box::before,
+.check-item:nth-child(4) .check-box::after { animation-delay: 1.5s; }
+
+.check-item:nth-child(5) .check-box,
+.check-item:nth-child(5) .check-box::before,
+.check-item:nth-child(5) .check-box::after { animation-delay: 2.0s; }
+
+/* Completado: sin animación, pseudo-elementos ocultos */
+.check-item.done .check-box { background: var(--green); border-color: var(--green); color: #fff; animation: none; }
+.check-item.done .check-box::before,
+.check-item.done .check-box::after { display: none; }
+
 
 .check-content { flex: 1; }
 .check-num { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #94a3b8; margin-bottom: 8px; }
