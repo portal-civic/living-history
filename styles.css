@@ -437,14 +437,24 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   animation: fadeUp 0.8s 0.55s both;
 }
 
-/* ── Erasmus+ hero logo (above titles) ─── */
+/* ── Erasmus+ hero badge (above titles) ─── */
+.cover-erasmus-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.80);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18), 0 1px 4px rgba(0,0,0,0.10);
+  padding: 10px 22px;
+  margin: 0 auto 22px;
+  animation: fadeUp 0.8s 0s both;
+}
 .cover-erasmus-hero {
   display: block;
-  width: clamp(140px, 16vw, 210px);
+  width: clamp(120px, 13vw, 180px);
   height: auto;
-  margin: 0 auto 20px;
-  filter: drop-shadow(0 2px 10px rgba(0,0,0,0.45));
-  animation: fadeUp 0.8s 0s both;
 }
 
 /* ── Project number ─── */
@@ -549,14 +559,16 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-title { margin-bottom: 10px; }
   .cover-subtitle { margin-bottom: 4px; }
   .cover-scroll-hint { display: none; }
-  .cover-erasmus-hero { width: clamp(110px, 13vw, 170px); margin-bottom: 14px; }
+  .cover-erasmus-badge { padding: 8px 18px; margin-bottom: 16px; }
+  .cover-erasmus-hero { width: clamp(100px, 12vw, 155px); }
   .cover-project-nr { margin-top: 6px; margin-bottom: 6px; }
 }
 @media (max-height: 660px) {
   .cover-mark-logo { width: clamp(60px, 9vw, 110px); margin: 8px auto; }
   .cover-pretitle { margin-bottom: 8px; }
   .cover-cta { padding: 14px 32px; font-size: 14px; }
-  .cover-erasmus-hero { width: clamp(90px, 11vw, 140px); margin-bottom: 10px; }
+  .cover-erasmus-badge { padding: 7px 14px; margin-bottom: 10px; border-radius: 10px; }
+  .cover-erasmus-hero { width: clamp(80px, 10vw, 130px); }
   .cover-project-nr { margin-top: 4px; margin-bottom: 4px; font-size: 11px; }
 }
 
@@ -1836,7 +1848,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .slide-cover { padding-bottom: 130px; }
   .cover-mark-logo { width: clamp(140px, 36vw, 190px); margin: 14px auto; }
   .cover-cta { padding: 14px 28px; font-size: 15px; }
-  .cover-erasmus-hero { width: clamp(120px, 32vw, 170px); margin-bottom: 16px; }
+  .cover-erasmus-badge { padding: 9px 18px; margin-bottom: 16px; }
+  .cover-erasmus-hero { width: clamp(110px, 28vw, 160px); }
   .cover-project-nr { font-size: clamp(10px, 2.6vw, 13px); margin-top: 7px; margin-bottom: 7px; }
   /* Logos strip */
   .cover-logos-strip { padding: 10px 24px; }
@@ -1865,7 +1878,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .slide-cover { padding-bottom: 180px; }
   .cover-mark-logo { width: clamp(120px, 32vw, 160px); margin: 12px auto; }
   .cover-cta { padding: 13px 22px; font-size: 14px; }
-  .cover-erasmus-hero { width: clamp(100px, 28vw, 150px); margin-bottom: 12px; }
+  .cover-erasmus-badge { padding: 7px 14px; margin-bottom: 12px; border-radius: 10px; }
+  .cover-erasmus-hero { width: clamp(90px, 24vw, 135px); }
   .cover-project-nr { font-size: 10px; letter-spacing: 0.01em; margin-top: 5px; margin-bottom: 5px; }
   /* Logos strip */
   .cover-logos-strip { flex-wrap: wrap; gap: 10px 0; padding: 10px 16px; }
