@@ -16,7 +16,22 @@ const translations = {
         "Impulsar el aprendizaje intergeneracional y reducir la brecha digital.",
         "Desarrollar una metodología transferible a cualquier territorio europeo."
       ],
-      text: "Esta guía tiene como finalidad servir como manual práctico, ofreciendo los pasos, herramientas y ejemplos reales que faciliten la replicación del modelo Living History en otros municipios o instituciones."
+      text: "Esta guía tiene como finalidad servir como manual práctico, ofreciendo los pasos, herramientas y ejemplos reales que faciliten la replicación del modelo Living History en otros municipios o instituciones.",
+      popup_altea: {
+        title: "Altea", role: "Socio", country_label: "País", country: "España",
+        entity: "Ajuntament d'Altea / EuroAltea",
+        text: "Municipio mediterráneo con una fuerte apuesta por la cultura, la participación y la innovación educativa. A través de EuroAltea y la colaboración con centros educativos y agentes locales, actúa como laboratorio vivo para la implementación y validación del proyecto."
+      },
+      popup_molfetta: {
+        title: "Molfetta", role: "Líder", country_label: "País", country: "Italia",
+        entity: "Associazione InCo Molfetta APS",
+        text: "Organización especializada en proyectos europeos, educación de personas adultas e innovación social. Lidera la coordinación del proyecto, integrando metodologías pedagógicas y herramientas digitales para la valorización del patrimonio cultural."
+      },
+      popup_karditsa: {
+        title: "Karditsa", role: "Socio", country_label: "País", country: "Grecia",
+        entity: "SVERONIS I. & SIA O.E. (E-School)",
+        text: "Organización con amplia experiencia en e-learning y desarrollo de contenidos digitales. Contribuye al proyecto aportando soluciones tecnológicas y conocimiento en digitalización del patrimonio cultural."
+      }
     },
     slide03: {
       title: "Cómo utilizar la IA para la explotación del patrimonio cultural",
@@ -162,7 +177,22 @@ const translations = {
         "Impulsar l’aprenentatge intergeneracional i reduir el biaix digital.",
         "Desenvolupar una metodologia transferible a qualsevol territori europeu."
       ],
-      text: "Aquesta guia té com a finalitat servir com a manual pràctic, oferint els passos, ferramentes i exemples reals que faciliten la replicació del model Living History en altres municipis o institucions."
+      text: "Aquesta guia té com a finalitat servir com a manual pràctic, oferint els passos, ferramentes i exemples reals que faciliten la replicació del model Living History en altres municipis o institucions.",
+      popup_altea: {
+        title: "Altea", role: "Soci", country_label: "País", country: "Espanya",
+        entity: "Ajuntament d'Altea / EuroAltea",
+        text: "Municipi mediterrani amb una forta aposta per la cultura, la participació i la innovació educativa. A través d'EuroAltea i la col·laboració amb centres educatius i agents locals, actua com a laboratori viu per a la implementació i validació del projecte."
+      },
+      popup_molfetta: {
+        title: "Molfetta", role: "Líder", country_label: "País", country: "Itàlia",
+        entity: "Associazione InCo Molfetta APS",
+        text: "Organització especialitzada en projectes europeus, educació de persones adultes i innovació social. Lidera la coordinació del projecte, integrant metodologies pedagògiques i ferramentes digitals per a la valorització del patrimoni cultural."
+      },
+      popup_karditsa: {
+        title: "Karditsa", role: "Soci", country_label: "País", country: "Grècia",
+        entity: "SVERONIS I. & SIA O.E. (E-School)",
+        text: "Organització amb àmplia experiència en e-learning i desenvolupament de continguts digitals. Contribueix al projecte aportant solucions tecnològiques i coneixement en digitalització del patrimoni cultural."
+      }
     },
     slide03: {
       title: "Com utilitzar la IA per a l’explotació del patrimoni cultural",
@@ -308,7 +338,22 @@ const translations = {
         "Promuovere l'apprendimento intergenerazionale e ridurre il divario digitale.",
         "Sviluppare una metodologia trasferibile a qualsiasi territorio europeo."
       ],
-      text: "Questa guida si propone come un manuale pratico ricco di passaggi, strumenti ed esempi reali per facilitare la replicazione del modello Living History in altri comuni o istituzioni."
+      text: "Questa guida si propone come un manuale pratico ricco di passaggi, strumenti ed esempi reali per facilitare la replicazione del modello Living History in altri comuni o istituzioni.",
+      popup_altea: {
+        title: "Altea", role: "Partner", country_label: "Paese", country: "Spagna",
+        entity: "Ajuntament d'Altea / EuroAltea",
+        text: "Comune mediterraneo con una forte vocazione per la cultura, la partecipazione e l'innovazione educativa. Attraverso EuroAltea e la collaborazione con scuole e attori locali, funge da laboratorio vivo per l'implementazione e la validazione del progetto."
+      },
+      popup_molfetta: {
+        title: "Molfetta", role: "Capofila", country_label: "Paese", country: "Italia",
+        entity: "Associazione InCo Molfetta APS",
+        text: "Organizzazione specializzata in progetti europei, educazione degli adulti e innovazione sociale. Coordina il progetto integrando metodologie pedagogiche e strumenti digitali per la valorizzazione del patrimonio culturale."
+      },
+      popup_karditsa: {
+        title: "Karditsa", role: "Partner", country_label: "Paese", country: "Grecia",
+        entity: "SVERONIS I. & SIA O.E. (E-School)",
+        text: "Organizzazione con ampia esperienza nell'e-learning e nello sviluppo di contenuti digitali. Contribuisce al progetto offrendo soluzioni tecnologiche e competenze nella digitalizzazione del patrimonio culturale."
+      }
     },
     slide03: {
       title: "Come utilizzare l'IA per la valorizzazione del patrimonio culturale",
@@ -454,7 +499,22 @@ const translations = {
         "Promote intergenerational learning and reduce the digital divide.",
         "Develop a transferable methodology to any European territory."
       ],
-      text: "This guide aims to serve as a practical manual, offering steps, tools, and real examples to facilitate the replication of the Living History model in other municipalities or institutions."
+      text: "This guide aims to serve as a practical manual, offering steps, tools, and real examples to facilitate the replication of the Living History model in other municipalities or institutions.",
+      popup_altea: {
+        title: "Altea", role: "Partner", country_label: "Country", country: "Spain",
+        entity: "Ajuntament d'Altea / EuroAltea",
+        text: "Mediterranean municipality strongly committed to culture, participation, and educational innovation. Through EuroAltea and collaboration with schools and local stakeholders, it acts as a living lab for the implementation and validation of the project."
+      },
+      popup_molfetta: {
+        title: "Molfetta", role: "Lead Partner", country_label: "Country", country: "Italy",
+        entity: "Associazione InCo Molfetta APS",
+        text: "Organization specialized in European projects, adult education, and social innovation. It leads project coordination, integrating pedagogical methodologies and digital tools for the enhancement of cultural heritage."
+      },
+      popup_karditsa: {
+        title: "Karditsa", role: "Partner", country_label: "Country", country: "Greece",
+        entity: "SVERONIS I. & SIA O.E. (E-School)",
+        text: "Organization with extensive experience in e-learning and digital content development. It contributes to the project by providing technological solutions and expertise in cultural heritage digitization."
+      }
     },
     slide03: {
       title: "How to Use AI for Cultural Heritage Exploitation",

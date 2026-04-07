@@ -165,16 +165,22 @@ slides.forEach(s => slideObs.observe(s));
 function openPartner(id) {
   const p = PARTNERS[id];
   if (!p) return;
+
+  // Read translatable fields from active language; fall back to PARTNERS data
+  const lang = document.documentElement.getAttribute('data-lang') || 'es';
+  const t = (translations[lang] && translations[lang].slide02 && translations[lang].slide02['popup_' + id]) || {};
+
   const logo = document.getElementById('m-logo');
-  logo.src = p.logo; logo.alt = p.org;
-  document.getElementById('m-name').textContent      = p.name;
-  document.getElementById('m-role').textContent      = p.role;
-  document.getElementById('m-role').style.background = p.color;
-  document.getElementById('m-country').textContent   = p.country;
-  document.getElementById('m-org').textContent       = p.org;
-  document.getElementById('m-org').style.color       = p.color;
-  document.getElementById('m-desc').textContent      = p.desc;
-  document.getElementById('m-links').innerHTML       = p.links.map(l =>
+  logo.src = p.logo; logo.alt = t.entity || p.org;
+  document.getElementById('m-name').textContent           = t.title         || p.name;
+  document.getElementById('m-role').textContent           = t.role          || p.role;
+  document.getElementById('m-role').style.background      = p.color;
+  document.getElementById('m-country-label').textContent  = t.country_label || 'País';
+  document.getElementById('m-country').textContent        = t.country       || p.country;
+  document.getElementById('m-org').textContent            = t.entity        || p.org;
+  document.getElementById('m-org').style.color            = p.color;
+  document.getElementById('m-desc').textContent           = t.text          || p.desc;
+  document.getElementById('m-links').innerHTML            = p.links.map(l =>
     `<a href="${l.url}" target="_blank" rel="noopener" class="modal-link">${l.label} ↗</a>`
   ).join('');
   const modal = document.getElementById('partner-modal');
