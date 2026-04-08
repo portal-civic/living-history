@@ -510,6 +510,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   display: flex; align-items: center; justify-content: center;
   gap: 0;
   padding: 12px 48px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px)); /* home indicator */
   background: rgba(255,255,255,0.85);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -593,6 +594,12 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-erasmus-badge { padding: 7px 14px; margin-bottom: 10px; border-radius: 10px; }
   .cover-erasmus-hero { width: clamp(80px, 10vw, 130px); }
   .cover-project-nr { margin-top: 4px; margin-bottom: 4px; font-size: 11px; }
+}
+
+/* ── Móvil muy pequeño (iPhone SE, Mini con barra visible, etc.) ─── */
+/* Ocultar el logo mark para que el CTA no quede detrás del logos strip */
+@media (max-height: 700px) and (max-width: 480px) {
+  .cover-mark-logo-link { display: none; }
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -1952,7 +1959,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-erasmus-hero { width: clamp(110px, 28vw, 160px); }
   .cover-project-nr { font-size: clamp(10px, 2.6vw, 13px); margin-top: 7px; margin-bottom: 7px; }
   /* Logos strip */
-  .cover-logos-strip { padding: 10px 24px; }
+  .cover-logos-strip { padding: 10px 24px; padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px)); }
   .cover-logos-group { padding: 0 20px; }
   .cover-logo { height: 26px; }
   .cover-logo-eu  { height: 30px !important; }
@@ -1984,7 +1991,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-erasmus-hero { width: clamp(90px, 24vw, 135px); }
   .cover-project-nr { font-size: 10px; letter-spacing: 0.01em; margin-top: 5px; margin-bottom: 5px; }
   /* Logos strip */
-  .cover-logos-strip { flex-wrap: wrap; gap: 10px 0; padding: 10px 16px; }
+  .cover-logos-strip { flex-wrap: wrap; gap: 10px 0; padding: 10px 16px; padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px)); }
   .cover-logos-group { padding: 0 12px; }
   .cover-logos-sep-v { display: none; }
   .cover-logo { height: 22px; }
