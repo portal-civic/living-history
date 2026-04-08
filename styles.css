@@ -420,8 +420,16 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   font-size: clamp(48px, 7.5vw, 86px);
   font-weight: 800; color: #fff;
   line-height: 0.95; letter-spacing: -0.04em;
-  margin-bottom: 14px; animation: fadeUp 0.8s 0.25s both;
+  margin-bottom: 6px; animation: fadeUp 0.8s 0.25s both;
   text-shadow: 0 10px 40px rgba(0,0,0,0.7);
+}
+.cover-title-sub {
+  font-size: clamp(20px, 2.8vw, 40px);
+  font-weight: 600; color: rgba(255,255,255,0.92);
+  line-height: 1.1; letter-spacing: -0.02em;
+  margin-bottom: 18px;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.55);
+  animation: fadeUp 0.8s 0.35s both;
 }
 .cover-subtitle {
   font-size: clamp(14px, 1.8vw, 19px);
@@ -566,7 +574,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 @media (max-height: 820px) {
   .cover-inner { padding: 8px 0 16px; }
   .cover-mark-logo { width: clamp(80px, 11vw, 150px); margin: 10px auto; }
-  .cover-title { margin-bottom: 10px; }
+  .cover-title { margin-bottom: 4px; }
+  .cover-title-sub { font-size: clamp(18px, 2.4vw, 34px); margin-bottom: 12px; }
   .cover-subtitle { margin-bottom: 4px; }
   .cover-scroll-hint { display: none; }
   .cover-erasmus-badge { padding: 8px 18px; margin-bottom: 16px; }
@@ -576,6 +585,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 @media (max-height: 660px) {
   .cover-mark-logo { width: clamp(60px, 9vw, 110px); margin: 8px auto; }
   .cover-pretitle { margin-bottom: 8px; }
+  .cover-title-sub { font-size: clamp(15px, 2vw, 26px); margin-bottom: 8px; }
   .cover-cta { padding: 14px 32px; font-size: 14px; }
   .cover-erasmus-badge { padding: 7px 14px; margin-bottom: 10px; border-radius: 10px; }
   .cover-erasmus-hero { width: clamp(80px, 10vw, 130px); }
@@ -1931,6 +1941,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-inner { padding: 12px 0 20px; }
   .slide-cover { padding-bottom: 130px; }
   .cover-mark-logo { width: clamp(140px, 36vw, 190px); margin: 14px auto; }
+  .cover-title { margin-bottom: 4px; }
+  .cover-title-sub { font-size: clamp(17px, 4.4vw, 30px); margin-bottom: 14px; }
   .cover-cta { padding: 14px 28px; font-size: 15px; }
   .cover-erasmus-badge { padding: 9px 18px; margin-bottom: 16px; }
   .cover-erasmus-hero { width: clamp(110px, 28vw, 160px); }
@@ -1961,6 +1973,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-inner { padding: 8px 0 16px; }
   .slide-cover { padding-bottom: 180px; }
   .cover-mark-logo { width: clamp(120px, 32vw, 160px); margin: 12px auto; }
+  .cover-title { margin-bottom: 3px; }
+  .cover-title-sub { font-size: clamp(14px, 4vw, 24px); letter-spacing: -0.015em; margin-bottom: 10px; }
   .cover-cta { padding: 13px 22px; font-size: 14px; }
   .cover-erasmus-badge { padding: 7px 14px; margin-bottom: 12px; border-radius: 10px; }
   .cover-erasmus-hero { width: clamp(90px, 24vw, 135px); }
