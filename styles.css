@@ -450,7 +450,11 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   padding: 10px 22px;
   margin: 0 auto 22px;
   animation: fadeUp 0.8s 0s both;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
 }
+.cover-erasmus-badge:hover { opacity: 0.90; transform: scale(1.03); }
 .cover-erasmus-hero {
   display: block;
   width: clamp(120px, 13vw, 180px);
@@ -470,6 +474,12 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 }
 
 /* ── Cover mark logo ─── */
+.cover-mark-logo-link {
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.cover-mark-logo-link:hover { opacity: 0.85; transform: scale(1.04); }
 .cover-mark-logo {
   display: block;
   width: clamp(100px, 14vw, 200px);
