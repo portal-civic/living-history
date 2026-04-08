@@ -355,24 +355,24 @@
             <div class="chatbot-header">
               <div class="chatbot-avatar">🏛</div>
               <div>
-                <div class="chatbot-name" data-i18n="s3.chat.name">El Guerrero de la Estela Ibérica</div>
-                <div class="chatbot-status">● En línea</div>
+                <div class="chatbot-name" data-i18n="slide03.chatbot.name">El Guerrero de la Estela Ibérica</div>
+                <div class="chatbot-status" data-i18n="slide03.chatbot.status">● En línea</div>
               </div>
             </div>
 
             <div id="chat-messages" class="chat-messages">
-              <div class="msg bot" data-i18n="s3.chat.intro">¡Salve! Soy el espíritu del guerrero ibérico que habitó estas tierras hace más de 2.000 años. ¿Qué deseas saber sobre nuestra época?</div>
+              <div class="msg bot" data-i18n="slide03.chatbot.greeting">¡Salve! Soy el espíritu del guerrero ibérico que habitó estas tierras hace más de 2.000 años. ¿Qué deseas saber sobre nuestra época?</div>
             </div>
 
             <div class="chat-suggestions">
-              <button class="chat-btn" onclick="askChat('¿Cómo era la vida en Altea hace 2000 años?', 'En aquellos tiempos, estas tierras eran ricas en tradición ibérica. Cultivábamos olivos y vid, comerciábamos con los pueblos del Mediterráneo y honrábamos a nuestros dioses con rituales que hoy apenas se recuerdan. La estela que porta mi imagen fue labrada por manos sabias para que mi memoria perdurase.')">¿Cómo era la vida hace 2.000 años?</button>
-              <button class="chat-btn" onclick="askChat('¿Qué era la Estela Ibérica?', 'La estela es una piedra tallada con mi figura, símbolo de honor y poder entre los iberos. Era costumbre erigir estas losas en puntos estratégicos del territorio para marcar linajes, victorias o territorios. La mía fue hallada en estas colinas mediterráneas, testimonio de una civilización que amaba la belleza y la fuerza por igual.')">¿Qué era la Estela Ibérica?</button>
-              <button class="chat-btn" onclick="askChat('¿Qué legado dejaron los iberos en Altea?', 'El legado ibero en estas tierras es profundo: desde el trazado de los primeros caminos hasta las técnicas agrícolas que los romanos adoptaron. Los topónimos, algunos rituales festivos y la propia devoción por el territorio siguen siendo ecos de nuestra presencia. La memoria no muere mientras haya quienes la busquen.')">¿Qué legado dejaron en Altea?</button>
+              <button class="chat-btn" data-i18n="slide03.chatbot.q1" onclick="askChatByIndex(1)">¿Cómo era la vida hace 2.000 años?</button>
+              <button class="chat-btn" data-i18n="slide03.chatbot.q2" onclick="askChatByIndex(2)">¿Qué era la Estela Ibérica?</button>
+              <button class="chat-btn" data-i18n="slide03.chatbot.q3" onclick="askChatByIndex(3)">¿Qué legado dejaron en Altea?</button>
             </div>
 
             <!-- Input fals de xat -->
             <div class="s3-phone-input">
-              <span class="s3-phone-input-placeholder">Escribe un mensaje…</span>
+              <span class="s3-phone-input-placeholder" data-i18n="slide03.chatbot.placeholder">Escribe tu pregunta...</span>
               <button class="s3-phone-send" aria-label="Enviar">+</button>
             </div>
 

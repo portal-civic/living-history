@@ -221,6 +221,13 @@ function askChat(q, a) {
   }, 600);
 }
 
+function askChatByIndex(n) {
+  const lang = document.documentElement.getAttribute('data-lang') || 'es';
+  const chat = translations[lang] && translations[lang].slide03 && translations[lang].slide03.chatbot;
+  if (!chat) return;
+  askChat(chat['q' + n], chat['a' + n]);
+}
+
 // ─── STEPS ──────────────────────────────────────────────────────────────────
 let activeStep = -1;
 

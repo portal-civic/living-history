@@ -44,7 +44,19 @@ const translations = {
         "Chatbots históricos: permiten a visitantes conversar con personajes como “El Guerrero de la Estela Ibérica”",
         "Análisis de archivos y fotografías antiguas: la IA puede reconocer lugares y vincularlos a relatos orales.",
         "Recorridos con códigos QR: los usuarios escanean un punto del municipio y acceden a un avatar que narra la historia del lugar."
-      ]
+      ],
+      chatbot: {
+        name: "El Guerrero de la Estela Ibérica",
+        status: "● En línea",
+        greeting: "¡Salve! Soy el espíritu del guerrero ibérico que habitó estas tierras hace más de 2.000 años. ¿Qué deseas saber sobre nuestra época?",
+        q1: "¿Cómo era la vida en Altea hace 2000 años?",
+        a1: "En aquellos tiempos, estas tierras eran ricas en tradición ibérica. Cultivábamos olivos y vid, comerciábamos con los pueblos del Mediterráneo y honrábamos a nuestros dioses con rituales que hoy apenas se recuerdan. La estela que porta mi imagen fue labrada por manos sabias para que mi memoria perdurase.",
+        q2: "¿Qué era la Estela Ibérica?",
+        a2: "La estela es una piedra tallada con mi figura, símbolo de honor y poder entre los iberos. Era costumbre erigir estas losas en puntos estratégicos del territorio para marcar linajes, victorias o territorios. La mía fue hallada en estas colinas mediterráneas, testimonio de una civilización que amaba la belleza y la fuerza por igual.",
+        q3: "¿Qué legado dejaron los iberos en Altea?",
+        a3: "El legado ibero en estas tierras es profundo: desde el trazado de los primeros caminos hasta las técnicas agrícolas que los romanos adoptaron. Los topónimos, algunos rituales festivos y la propia devoción por el territorio siguen siendo ecos de nuestra presencia. La memoria no muere mientras haya quienes la busquen.",
+        placeholder: "Escribe tu pregunta..."
+      }
     },
     slide04: {
       title: "Metodología replicable: paso a paso",
@@ -210,7 +222,19 @@ const translations = {
         "Xatbots històrics: permeten a visitants conversar amb personatges com “El Guerrer de l’Estela Ibèrica”",
         "Anàlisi d’arxius i fotografies antigues: la IA pot reconéixer llocs i vincular-los a relats orals.",
         "Recorreguts amb codis QR: els usuaris escanegen un punt del municipi i accedeixen a un avatar que narra la història del lloc."
-      ]
+      ],
+      chatbot: {
+        name: "El Guerrer de l’Estela Ibèrica",
+        status: "● En línia",
+        greeting: "Salut! Sóc l’esperit del guerrer ibèric que va habitar aquestes terres fa més de 2.000 anys. Què vols saber sobre la nostra època?",
+        q1: "Com era la vida a Altea fa 2000 anys?",
+        a1: "En aquells temps, aquestes terres eren riques en tradició ibèrica. Cultivàvem oliveres i vinya, comerciàvem amb els pobles del Mediterrani i honràvem els nostres déus amb rituals que hui amb prou faenes es recorden. L’estela que porta la meua imatge va ser tallada per mans sàvies perquè la meua memòria perdurara.",
+        q2: "Què era l’Estela Ibèrica?",
+        a2: "L’estela és una pedra tallada amb la meua figura, símbol d’honor i poder entre els ibers. Era costum erigir aquestes lloses en punts estratègics del territori per a marcar llinatges, victòries o territoris. La meua va ser trobada en aquestes colines mediterrànies, testimoni d’una civilització que estimava la bellesa i la força per igual.",
+        q3: "Quin llegat van deixar els ibers a Altea?",
+        a3: "El llegat iber en aquestes terres és profund: des del traçat dels primers camins fins a les tècniques agrícoles que els romans van adoptar. Els topònims, alguns rituals festius i la mateixa devoció pel territori continuen sent ecos de la nostra presència. La memòria no mor mentre hi haja qui la busque.",
+        placeholder: "Escriu la teua pregunta..."
+      }
     },
     slide04: {
       title: "Metodologia reproduïble: pas a pas",
@@ -376,7 +400,19 @@ const translations = {
         "Chatbot storici: permettono ai visitatori di conversare con personaggi come \"Il Guerriero della Stele Iberica\".",
         "Analisi di archivi e vecchie fotografie: l'IA può riconoscere i luoghi e collegarli a racconti orali.",
         "Tour con codici QR: gli utenti scansionano un punto nel comune e accedono a un avatar che narra la storia del luogo."
-      ]
+      ],
+      chatbot: {
+        name: "Il Guerriero della Stele Iberica",
+        status: "● Online",
+        greeting: "Salve! Sono lo spirito del guerriero iberico che abitò queste terre più di 2.000 anni fa. Cosa desideri sapere della nostra epoca?",
+        q1: "Com'era la vita ad Altea 2000 anni fa?",
+        a1: "In quei tempi, queste terre erano ricche di tradizione iberica. Coltivavamo ulivi e vite, commerciavamo con i popoli del Mediterraneo e onoravamo i nostri dèi con rituali che oggi sono quasi dimenticati. La stele che porta la mia immagine fu scolpita da mani sagge affinché la mia memoria durasse nel tempo.",
+        q2: "Che cos'era la Stele Iberica?",
+        a2: "La stele è una pietra scolpita con la mia figura, simbolo di onore e potere tra gli iberi. Era usanza erigere queste lastre in punti strategici del territorio per segnare lignaggi, vittorie o territori. La mia fu ritrovata su queste colline mediterranee, testimonianza di una civiltà che amava allo stesso modo la bellezza e la forza.",
+        q3: "Quale eredità hanno lasciato gli iberi ad Altea?",
+        a3: "L'eredità iberica in queste terre è profonda: dal tracciato delle prime strade alle tecniche agricole adottate poi dai romani. I toponimi, alcuni rituali festivi e la stessa devozione per il territorio restano echi della nostra presenza. La memoria non muore finché c'è chi la cerca.",
+        placeholder: "Scrivi la tua domanda..."
+      }
     },
     slide04: {
       title: "Metodologia replicabile: Passo dopo passo",
@@ -542,7 +578,19 @@ const translations = {
         "Historical chatbots: allow visitors to converse with characters like \"The Warrior of the Iberian Stele\"",
         "Analysis of archives and old photographs: AI can recognize places and link them to oral stories.",
         "Tours with QR codes: users scan a point in the municipality and access an avatar that narrates the history of the place."
-      ]
+      ],
+      chatbot: {
+        name: "The Iberian Stele Warrior",
+        status: "● Online",
+        greeting: "Hail! I am the spirit of the Iberian warrior who inhabited these lands more than 2,000 years ago. What would you like to know about our time?",
+        q1: "What was life like in Altea 2,000 years ago?",
+        a1: "In those times, these lands were rich in Iberian tradition. We cultivated olive trees and vines, traded with the peoples of the Mediterranean, and honored our gods with rituals that are barely remembered today. The stele bearing my image was carved by wise hands so that my memory would endure.",
+        q2: "What was the Iberian Stele?",
+        a2: "The stele is a carved stone bearing my figure, a symbol of honor and power among the Iberians. It was customary to erect these slabs in strategic points of the territory to mark lineages, victories, or lands. Mine was found in these Mediterranean hills, testimony to a civilization that loved beauty and strength equally.",
+        q3: "What legacy did the Iberians leave in Altea?",
+        a3: "The Iberian legacy in these lands is deep: from the layout of the first roads to the agricultural techniques later adopted by the Romans. Place names, some festive rituals, and devotion to the land itself are still echoes of our presence. Memory does not die as long as there are those who seek it.",
+        placeholder: "Write your question..."
+      }
     },
     slide04: {
       title: "Replicable Methodology: Step by Step",
