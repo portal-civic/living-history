@@ -304,7 +304,10 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   background: var(--bg-dark);
   color: #e2e8f0;
   overflow: hidden;
-  height: 100vh; max-height: 100vh; /* never grow beyond viewport */
+  height: 100vh;
+  height: 100dvh;        /* Safari 15.4+: accounts for browser chrome correctly */
+  max-height: 100vh;
+  max-height: 100dvh;
   padding-bottom: 148px; /* reserve space for logos strip */
 }
 .slide-light { background: var(--bg-light); color: var(--text-main); }
@@ -1939,7 +1942,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   /* Portada */
   .cover-photo { background-position: center 20%; }
   .cover-inner { padding: 12px 0 20px; }
-  .slide-cover { padding-bottom: 130px; }
+  /* flex-start: badge always starts from padding-top, never pushed up by centering */
+  .slide-cover { justify-content: flex-start; padding-bottom: 130px; }
   .cover-mark-logo { width: clamp(140px, 36vw, 190px); margin: 14px auto; }
   .cover-title { margin-bottom: 4px; }
   .cover-title-sub { font-size: clamp(17px, 4.4vw, 30px); margin-bottom: 14px; }
