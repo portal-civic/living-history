@@ -250,13 +250,19 @@ function toggleStep(i) {
   // Fade out, swap content, fade in
   detail.classList.remove('visible');
   setTimeout(() => {
-    const s = STEPS[i];
+    const s    = STEPS[i];
+    const lang = document.documentElement.getAttribute('data-lang') || 'es';
+    const t    = translations[lang] && translations[lang].slide04 && translations[lang].slide04.steps && translations[lang].slide04.steps[i];
+    const prefix = (uiStrings[lang] && uiStrings[lang].s4 && uiStrings[lang].s4.stepPrefix) || 'Paso';
+    const title   = (t && t.title)   || s.title;
+    const bullets = (t && t.bullets) || s.bullets;
+
     document.getElementById('sd-icon').textContent  = s.icon;
-    document.getElementById('sd-num').textContent   = 'Paso ' + (i + 1);
-    document.getElementById('sd-title').textContent = s.title;
-    document.getElementById('sd-desc').innerHTML    = s.bullets.map(b => '<li>' + b + '</li>').join('');
+    document.getElementById('sd-num').textContent   = prefix + ' ' + (i + 1);
+    document.getElementById('sd-title').textContent = title;
+    document.getElementById('sd-desc').innerHTML    = bullets.map(b => '<li>' + b + '</li>').join('');
     if (s.image) {
-      img.src = s.image; img.alt = s.title;
+      img.src = s.image; img.alt = title;
       imgWrap.classList.add('has-image');
       imgWrap.classList.toggle('portrait', !!s.portrait);
     }
