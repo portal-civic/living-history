@@ -5,13 +5,13 @@ const translations = {
       text: [
         "La inteligencia artificial está transformando la forma en que comprendemos, transmitimos y preservamos el patrimonio cultural.",
         "El proyecto europeo Living History: AI-powered Cultural Heritage, cofinanciado por el programa Erasmus+, nace con el objetivo de utilizar herramientas digitales avanzadas para dar nueva vida a la historia local y conectar a generaciones a través de la tecnología.",
-        "Desde Altea (España), en colaboración con Karditsa (Grecia) y Molfetta (Italia), este proyecto desarrolla una metodología replicable para que cualquier comunidad pueda mapear, digitalizar y comunicar su patrimonio mediante IA, realidad aumentada y herramientas educativas innovadoras."
+        "Desde Altea (España), en colaboración con Karditsa (Grecia) y Molfetta (Italia), este proyecto desarrolla una metodología replicable para que cualquier comunidad pueda mapear, digitalizar y comunicar su patrimonio mediante IA y herramientas educativas innovadoras."
       ]
     },
     slide02: {
       title: "Objetivos del proyecto y alcance de la guía",
       bullets: [
-        "Promover el patrimonio cultural local utilizando herramientas de IA y realidad aumentada.",
+        "Promover el patrimonio cultural local utilizando herramientas de IA.",
         "Formar a adultos y docentes en el uso de IA para recuperar historias y personajes.",
         "Impulsar el aprendizaje intergeneracional y reducir la brecha digital.",
         "Desarrollar una metodología transferible a cualquier territorio europeo."
@@ -83,7 +83,7 @@ const translations = {
         {
           title: "Entrenamiento de modelos de IA",
           bullets: [
-            "Usa herramientas accesibles (ChatGPT, DeepAI, Juji.io)."
+            "Usa herramientas accesibles (ChatGPT, DeepAI, Gemini, Claude)."
           ]
         },
         {
@@ -172,9 +172,12 @@ const translations = {
       title: "Recursos y anexos",
       resources: [
         "Enlace a bancos de datos culturales europeos (Europeana, Wikimedia Commons).",
-        "Enlace al proyecto Erasmus+: https://erasmus-plus.ec.europa.eu"
+        "Enlace al programa Erasmus+: https://erasmus-plus.ec.europa.eu"
       ],
       footer_quote: "Cada historia local puede transformarse en un diálogo vivo entre pasado y futuro. La inteligencia artificial nos da la voz; la memoria, el alma."
+    },
+    ui: {
+      disclaimer: "Financiado por la Unión Europea. Las opiniones y puntos de vista expresados solo comprometen a su(s) autor(es) y no reflejan necesariamente los de la Unión Europea o los de la Agencia Ejecutiva Europea de Educación y Cultura (EACEA). Ni la Unión Europea ni la EACEA pueden ser considerados responsables de ellos."
     }
   },
   va: {
@@ -183,13 +186,13 @@ const translations = {
       text: [
         "La intel·ligència artificial està transformant la forma en què comprenem, transmetem i preservem el patrimoni cultural.",
         "El projecte europeu Living History: AI-powered Cultural Heritage, cofinançat pel programa Erasmus+, naix amb l’objectiu d’utilitzar ferramentes digitals avançades per a donar una nova vida a la història local i connectar a generacions a través de la tecnologia.",
-        "Des d’Altea (Espanya), en col·laboració amb Karditsa (Grècia) i Molfetta (Itàlia), aquest projecte desenvolupa una metodologia reproduïble perquè qualsevol comunitat puga fer un mapa, digitalitzar i comunicar el seu patrimoni mitjançant IA, realitat augmentada i ferramentes educatives innovadores."
+        "Des d’Altea (Espanya), en col·laboració amb Karditsa (Grècia) i Molfetta (Itàlia), aquest projecte desenvolupa una metodologia reproduïble perquè qualsevol comunitat puga fer un mapa, digitalitzar i comunicar el seu patrimoni mitjançant IA i ferramentes educatives innovadores."
       ]
     },
     slide02: {
       title: "Objectius del projecte i abast de la guia",
       bullets: [
-        "Promoure el patrimoni cultural local utilitzant ferramentes d’IA i realitat augmentada.",
+        "Promoure el patrimoni cultural local utilitzant ferramentes d’IA.",
         "Formar a adults i docents en l’ús de la IA per a recuperar històries i personatges.",
         "Impulsar l’aprenentatge intergeneracional i reduir el biaix digital.",
         "Desenvolupar una metodologia transferible a qualsevol territori europeu."
@@ -261,7 +264,7 @@ const translations = {
         {
           title: "Entrenament de models d’IA",
           bullets: [
-            "Usa ferramentes accessibles (ChatGPT, DeepAI, Juji.io)."
+            "Usa ferramentes accessibles (ChatGPT, DeepAI, Gemini, Claude)."
           ]
         },
         {
@@ -350,9 +353,12 @@ const translations = {
       title: "Recursos i annexos",
       resources: [
         "Enllaç a bancs de dades culturals europees (Europeana, Wikimedia Commons).",
-        "Enllaç al projecte Erasmus+: https://erasmus-plus.ec.europa.eu"
+        "Enllaç al programa Erasmus+: https://erasmus-plus.ec.europa.eu"
       ],
       footer_quote: "Cada història local pot transformar-se en un diàleg viu entre passat i futur. La intel·ligència artificial ens dona la veu; la memòria, l’ànima."
+    },
+    ui: {
+      disclaimer: "Finançat per la Unió Europea. Les opinions i punts de vista expressats només comprometen al seu(s) autor(es) i no reflecteixen necessàriament els de la Unió Europea o els de l’Agència Executiva Europea d’Educació i Cultura (EACEA). Ni la Unió Europea ni la EACEA poden ser considerats responsables d’ells."
     }
   },
   it: {
@@ -361,13 +367,13 @@ const translations = {
       text: [
         "L'intelligenza artificiale sta trasformando il modo in cui comprendiamo, trasmettiamo e preserviamo il patrimonio culturale.",
         "Il progetto europeo Living History: AI-powered Cultural Heritage, cofinanziato dal programma Erasmus+, mira a utilizzare strumenti digitali avanzati per riportare in vita la storia locale e connettere le generazioni attraverso la tecnologia.",
-        "Partendo da Altea (Spagna), in collaborazione con Karditsa (Grecia) e Molfetta (Italia), questo progetto sviluppa una metodologia replicabile affinché qualsiasi comunità possa mappare, digitalizzare e comunicare il proprio patrimonio utilizzando l'IA, la realtà aumentata e strumenti educativi innovativi."
+        "Partendo da Altea (Spagna), in collaborazione con Karditsa (Grecia) e Molfetta (Italia), questo progetto sviluppa una metodologia replicabile affinché qualsiasi comunità possa mappare, digitalizzare e comunicare il proprio patrimonio utilizzando l'IA e strumenti educativi innovativi."
       ]
     },
     slide02: {
       title: "Obiettivi del progetto e ambito della guida",
       bullets: [
-        "Promuovere il patrimonio culturale locale utilizzando strumenti di IA e realtà aumentata.",
+        "Promuovere il patrimonio culturale locale utilizzando strumenti di IA.",
         "Formare adulti e insegnanti all'uso dell'IA per recuperare storie e personaggi.",
         "Promuovere l'apprendimento intergenerazionale e ridurre il divario digitale.",
         "Sviluppare una metodologia trasferibile a qualsiasi territorio europeo."
@@ -439,7 +445,7 @@ const translations = {
         {
           title: "Addestramento dei Modelli di IA",
           bullets: [
-            "Utilizzare strumenti accessibili (ChatGPT, DeepAI, Juji.io)."
+            "Utilizzare strumenti accessibili (ChatGPT, DeepAI, Gemini, Claude)."
           ]
         },
         {
@@ -528,9 +534,12 @@ const translations = {
       title: "Risorse e allegati",
       resources: [
         "Link alle banche dati culturali europee (Europeana, Wikimedia Commons).",
-        "Link al progetto Erasmus+: https://erasmus-plus.ec.europa.eu"
+        "Link al programma Erasmus+: https://erasmus-plus.ec.europa.eu"
       ],
       footer_quote: "Ogni storia locale può essere trasformata in un dialogo vivo tra passato e futuro. L'intelligenza artificiale le dà voce; la memoria la anima."
+    },
+    ui: {
+      disclaimer: "Finanziato dall'Unione europea. Le opinioni espresse appartengono, tuttavia, al solo o ai soli autori e non riflettono necessariamente le opinioni dell'Unione europea o dell'Agenzia esecutiva europea per l'istruzione e la cultura (EACEA). Né l'Unione europea né l'EACEA possono esserne ritenute responsabili."
     }
   },
   en: {
@@ -539,13 +548,13 @@ const translations = {
       text: [
         "Artificial intelligence is transforming the way we understand, transmit, and preserve cultural heritage.",
         "The European project Living History: AI-powered Cultural Heritage, co-financed by the Erasmus+ programme, aims to use advanced digital tools to bring local history back to life and connect generations through technology.",
-        "From Altea (Spain), in collaboration with Karditsa (Greece) and Molfetta (Italy), this project develops a replicable methodology so that any community can map, digitize, and communicate its heritage using AI, augmented reality, and innovative educational tools."
+        "From Altea (Spain), in collaboration with Karditsa (Greece) and Molfetta (Italy), this project develops a replicable methodology so that any community can map, digitize, and communicate its heritage using AI and innovative educational tools."
       ]
     },
     slide02: {
       title: "Project Objectives and Guide Scope",
       bullets: [
-        "Promote local cultural heritage using AI and augmented reality tools.",
+        "Promote local cultural heritage using AI tools.",
         "Train adults and teachers in using AI to recover stories and characters.",
         "Promote intergenerational learning and reduce the digital divide.",
         "Develop a transferable methodology to any European territory."
@@ -617,7 +626,7 @@ const translations = {
         {
           title: "Training of AI Models",
           bullets: [
-            "Use accessible tools (ChatGPT, DeepAI, Juji.io)"
+            "Use accessible tools (ChatGPT, DeepAI, Gemini, Claude)."
           ]
         },
         {
@@ -706,9 +715,12 @@ const translations = {
       title: "Resources and Annexes",
       resources: [
         "Link to European cultural databases (Europeana, Wikimedia Commons).",
-        "Link to the Erasmus+ project: https://erasmus-plus.ec.europa.eu"
+        "Link to the Erasmus+ programme: https://erasmus-plus.ec.europa.eu"
       ],
       footer_quote: "Every local story can be transformed into a living dialogue between past and future. Artificial intelligence gives it voice; memory, the soul."
+    },
+    ui: {
+      disclaimer: "Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them."
     }
   }
 };

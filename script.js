@@ -7,7 +7,7 @@ const PARTNERS = {
     color: '#2563eb',
     logo: 'assets/logos/inco-molfetta.png',
     links: [
-      { label: 'incoweb.org', url: 'https://www.incoweb.org/ita' }
+      { label: 'incomolfetta.eu', url: 'https://www.incomolfetta.eu/' }
     ]
   },
   altea: {
@@ -28,7 +28,7 @@ const PARTNERS = {
     color: '#059669',
     logo: 'assets/logos/karditsa.png',
     links: [
-      { label: 'euprojects.gr', url: 'https://www.euprojects.gr/en/portfolio-items/2021-embracing-uncertainty-while-fighting-for-sustainable-development/' }
+      { label: 'euprojects.gr', url: 'https://www.euprojects.gr/en/home/' }
     ]
   }
 };
@@ -63,7 +63,7 @@ const STEPS = [
     icon: '🧠',
     title: 'Entrenamiento de modelos de IA',
     bullets: [
-      'Usa herramientas accesibles (ChatGPT, DeepAI, Juji.io).'
+      'Usa herramientas accesibles (ChatGPT, DeepAI, Gemini, Claude).'
     ],
     image: 'assets/images/steps/step-04.jpg'
   },

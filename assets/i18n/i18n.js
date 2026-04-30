@@ -13,7 +13,7 @@ const uiStrings = {
     s2: {
       label: "Objetivos",
       mapHint: "Toca un punto para conocer al socio",
-      obj1: { front: "Patrimonio con IA y RA" },
+      obj1: { front: "Patrimonio con IA" },
       obj2: { front: "Formación de adultos y docentes" },
       obj3: { front: "Aprendizaje intergeneracional" },
       obj4: { front: "Metodología transferible" }
@@ -52,7 +52,7 @@ const uiStrings = {
       done: "🎉 ¡Listo para lanzar tu propio Living History!"
     },
     s10: {
-      label: "Recursos y Anexos",
+      label: "Recursos",
       card3label: "Bancos de datos culturales europeos",
       card4label: "Proyecto Erasmus+",
       closingsub: "PROYECTO LIVING HISTORY: AI-POWERED CULTURAL HERITAGE"
@@ -71,7 +71,7 @@ const uiStrings = {
     s2: {
       label: "Objectius",
       mapHint: "Toca un punt per conéixer el soci",
-      obj1: { front: "Patrimoni amb IA i RA" },
+      obj1: { front: "Patrimoni amb IA" },
       obj2: { front: "Formació d'adults i docents" },
       obj3: { front: "Aprenentatge intergeneracional" },
       obj4: { front: "Metodologia transferible" }
@@ -110,7 +110,7 @@ const uiStrings = {
       done: "🎉 Llest per a llançar el teu propi Living History!"
     },
     s10: {
-      label: "Recursos i Annexos",
+      label: "Recursos",
       card3label: "Bancs de dades culturals europees",
       card4label: "Projecte Erasmus+",
       closingsub: "PROJECTE LIVING HISTORY: AI-POWERED CULTURAL HERITAGE"
@@ -129,7 +129,7 @@ const uiStrings = {
     s2: {
       label: "Obiettivi",
       mapHint: "Tocca un punto per conoscere il partner",
-      obj1: { front: "Patrimonio con IA e RA" },
+      obj1: { front: "Patrimonio con IA" },
       obj2: { front: "Formazione di adulti e docenti" },
       obj3: { front: "Apprendimento intergenerazionale" },
       obj4: { front: "Metodologia trasferibile" }
@@ -168,7 +168,7 @@ const uiStrings = {
       done: "🎉 Pronto per lanciare il tuo Living History!"
     },
     s10: {
-      label: "Risorse e Allegati",
+      label: "Risorse",
       card3label: "Banche dati culturali europee",
       card4label: "Progetto Erasmus+",
       closingsub: "PROGETTO LIVING HISTORY: AI-POWERED CULTURAL HERITAGE"
@@ -187,7 +187,7 @@ const uiStrings = {
     s2: {
       label: "Objectives",
       mapHint: "Tap a point to meet the partner",
-      obj1: { front: "Heritage with AI and AR" },
+      obj1: { front: "Heritage with AI" },
       obj2: { front: "Training adults and teachers" },
       obj3: { front: "Intergenerational learning" },
       obj4: { front: "Transferable methodology" }
@@ -226,7 +226,7 @@ const uiStrings = {
       done: "🎉 Ready to launch your own Living History!"
     },
     s10: {
-      label: "Resources and Annexes",
+      label: "Resources",
       card3label: "European cultural databases",
       card4label: "Erasmus+ Project",
       closingsub: "LIVING HISTORY PROJECT: AI-POWERED CULTURAL HERITAGE"
