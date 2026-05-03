@@ -542,6 +542,8 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
 }
 /* Lead partner: slightly larger for hierarchy */
 .cover-logo-lead  { height: 36px; }
+/* Puglia Tourist Information */
+.cover-logo-puglia { height: 34px; }
 /* Ajuntament d'Altea */
 .cover-logo-altea { height: 30px; }
 /* EuroAltea */
@@ -1988,6 +1990,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-logo { height: 26px; }
   .cover-logo-eu  { height: 30px !important; }
   .cover-logo-lead  { height: 32px; }
+  .cover-logo-puglia { height: 30px; }
   .cover-logo-altea { height: 26px; }
   .cover-logo-minor { height: 18px; }
   .cover-logo-eschool { height: 18px; }
@@ -2021,6 +2024,7 @@ nav.scrolled .lang-btn.active { color: var(--primary); border-color: rgba(21,65,
   .cover-logo { height: 22px; }
   .cover-logo-eu  { height: 24px !important; }
   .cover-logo-lead  { height: 28px; }
+  .cover-logo-puglia { height: 26px; }
   .cover-logo-altea { height: 22px; }
   .cover-logo-minor { height: 16px; }
   .cover-logo-eschool { height: 16px; top: 0; }
