@@ -95,7 +95,7 @@ const translations = {
         {
           title: "Instalación y difusión local",
           bullets: [
-            "Implementa rutas con QR, realidad aumentada o espacios interactivos."
+            "Implementa rutas con QR o espacios interactivos."
           ]
         },
         {
@@ -276,7 +276,7 @@ const translations = {
         {
           title: "Instal·lació i difusió local",
           bullets: [
-            "Implementa rutes amb QR, realitat augmentada o espais interactius."
+            "Implementa rutes amb QR o espais interactius."
           ]
         },
         {
@@ -457,7 +457,7 @@ const translations = {
         {
           title: "Installazione Locale e Diffusione",
           bullets: [
-            "Implementare percorsi con QR, realtà aumentata o spazi interattivi."
+            "Implementare percorsi con QR o spazi interattivi."
           ]
         },
         {
@@ -638,7 +638,7 @@ const translations = {
         {
           title: "Local Installation and Dissemination",
           bullets: [
-            "Implement routes with QR, augmented reality, or interactive spaces."
+            "Implement routes with QR or interactive spaces."
           ]
         },
         {
