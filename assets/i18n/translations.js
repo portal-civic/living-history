@@ -110,7 +110,7 @@ const translations = {
       title: "Mejorar las habilidades digitales de los adultos",
       text: [
         "El proyecto Living History promueve el aprendizaje práctico de la IA entre adultos y docentes.",
-        "A través de talleres formativos, se enseña a entrenar chatbots, usar herramientas de RA y gestionar datos culturales.",
+        "A través de talleres formativos, se enseña a entrenar chatbots y gestionar datos culturales.",
         "El objetivo es acercar la tecnología a quienes normalmente no la usan, reforzando la confianza digital de los ciudadanos.",
         "Las formaciones locales realizadas en Altea con el IES Bellaguarda son un ejemplo de cómo la IA puede integrarse en la enseñanza, el turismo y la cultura local."
       ]
@@ -291,7 +291,7 @@ const translations = {
       title: "Millorar les habilitats digitals dels adults",
       text: [
         "El projecte Living History promou l’aprenentatge pràctic de la IA entre adults i docents.",
-        "A través de tallers formatius, s’ensenya a entrenar a xatbots, usar ferramentes de RA i gestionar dades culturals.",
+        "A través de tallers formatius, s’ensenya a entrenar xatbots i gestionar dades culturals.",
         "L’objectiu és apropar la tecnologia a qui normalment no la usa, reforçant la confiança digital dels ciutadans.",
         "Les formacions locals realitzades a Altea amb l’IES Bellaguarda són un exemple de com la IA pot integrar-se en l’ensenyança, el turisme i la cultura local."
       ]
@@ -472,7 +472,7 @@ const translations = {
       title: "Migliorare le competenze digitali degli adulti",
       text: [
         "Il progetto “Living History” promuove l'apprendimento pratico dell'IA tra adulti e insegnanti.",
-        "Attraverso workshop formativi, insegna come addestrare chatbot, utilizzare strumenti di RA (Realtà Aumentata) e gestire dati culturali.",
+        "Attraverso workshop formativi, insegna come addestrare chatbot e gestire dati culturali.",
         "L'obiettivo è avvicinare la tecnologia a coloro che normalmente non la usano, rafforzando la fiducia dei cittadini sul digitale.",
         "I laboratori locali condotti ad Altea con lo IES Bellaguarda sono un esempio di come l'IA possa essere integrata nell'insegnamento, nel turismo e nella cultura locale."
       ]
@@ -653,7 +653,7 @@ const translations = {
       title: "Improving Adults' Digital Skills",
       text: [
         "The Living History project promotes practical AI learning among adults and teachers.",
-        "Through training workshops, it teaches how to train chatbots, use AR tools, and manage cultural data.",
+        "Through training workshops, it teaches how to train chatbots and manage cultural data.",
         "The goal is to bring technology closer to those who normally do not use it, reinforcing citizens' digital confidence.",
         "Local trainings conducted in Altea with IES Bellaguarda are an example of how AI can be integrated into teaching, tourism, and local culture."
       ]
